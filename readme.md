@@ -25,7 +25,7 @@ campusdata.github.io
 
 ###Problems we are trying to solve
 1. Poeple don't know they can make an impact
-2. Poeple don't know others are thinkoing about this issue
+2. People don't know others are thinkoing about this issue
 	- Students (Cheif focus)
 	- Universtiy Administrators
 3. Students aren't aware of the OpenData efforts happening at their schools
