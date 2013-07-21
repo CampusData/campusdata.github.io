@@ -5,6 +5,11 @@ img.fullpage {
 div.cat {
     background: url('http://placekitten.com/1200/300') no-repeat center;
     background-size: 100%;
+    height: 450px;
+    width: 100%;
+}
+
+div.box {
     width: 100%;
     height: 450px;
 }
@@ -15,4 +20,6 @@ div.cat h1.title {
 
 div.dark {
 	background: lightblue;
+	width: 100%;
+    height: 450px;
 }
