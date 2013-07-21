@@ -3,14 +3,15 @@ img.fullpage {
 }
 
 div.cat {
-    background: url('http://placekitten.com/1200/300') no-repeat center;
+    background: url('http://placekitten.com/1200/300') no-repeat center top;
     background-size: 100%;
-    height: 350px;
+    height: 450px;
     width: 100%;
 }
 
 div.box {
     width: 100%;
+    height: 450px;
 }
 
 div.cat h1.title {
@@ -23,4 +24,9 @@ h1,h2,h3,p,a.button {
 
 span.red {
     color: rgb(180, 0, 0);
+}
+div.dark {
+	background: lightblue;
+	width: 100%;
+    height: 450px;
 }
