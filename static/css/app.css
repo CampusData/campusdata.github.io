@@ -6,9 +6,13 @@ div.cat {
     background: url('http://placekitten.com/1200/300') no-repeat center;
     background-size: 100%;
     width: 100%;
-    height: 350px;
+    height: 450px;
 }
 
 div.cat h1.title {
     color: white;
+}
+
+div.dark {
+	background: lightblue;
 }
