@@ -2,10 +2,10 @@ img.fullpage {
     width: 100%;
 }
 
-div.cat {
-    background: url('http://placekitten.com/1200/300') no-repeat center top;
+div.banner {
+    background: url('/static/img/campus.png') no-repeat center top;
     background-size: 100%;
-    height: 450px;
+    height: 500px;
     width: 100%;
 }
 
@@ -14,8 +14,19 @@ div.box {
     height: 450px;
 }
 
-div.cat h1.title {
+div.banner h1.title {
     color: white;
+    font-size: 80px;
+}
+
+div.banner p {
+    color: white;
+}
+
+div.banner p.banner-text {
+    background: #000;
+    font-size: 24px;
+    opacity: 0.8;
 }
 
 h1,h2,h3,p,a.button {
@@ -30,3 +41,10 @@ div.dark {
 	width: 100%;
     height: 450px;
 }
+
+div.banner div.banner-panel {
+    background: #000;
+    padding: 15px;
+    opacity: 0.9;
+}
+
