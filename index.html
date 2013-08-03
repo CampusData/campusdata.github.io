@@ -12,7 +12,6 @@
     <!-- Included CSS Files (Compressed) -->
     <link rel="stylesheet" type="text/css" href="/static/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="/static/css/foundation.css">
-    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="/static/css/app.css">
     
@@ -20,10 +19,11 @@
     <link rel="icon" href="/static/img/favicon.ico" type="image/x-icon">
     
     <script type="text/javascript" src="/static/js/vendor/jquery.js"></script>
-    <script type="text/javascript" src="/static/js/foundation/foundation.min.js"></script>
+    <script type="text/javascript" src="/static/js/foundation.min.js"></script>
+    <script type="text/javascript" src="/static/js/plugins/foundation.orbit.js"></script>
     <script type="text/javascript" src="/static/js/vendor/custom.modernizr.js"></script>
     
-    <script src="/static/js/app.js"></script>   
+    <script src="/static/js/app.js"></script> 
 
 </head>
 <body>
@@ -77,22 +77,81 @@
     <div class="dark">
         <div class="row">
             <div class="small-12 columns">
-                <h2> What's been done </h2>
+                <h2> What we're working on </h2>
             </div>
         </div>
         <div class="row">
-            <ul class="small-block-grid-3">
-                <li><a href="http://www.google.com" target="_blank"><img src="http://f.cl.ly/items/2r3I151r2j1W0h1B2Q0X/demo2.jpg"></a></li>
-                <li><a href="http://www.google.com" target="_blank"><img src="http://f.cl.ly/items/2r3I151r2j1W0h1B2Q0X/demo2.jpg"></a></li>
-                <li><a href="http://www.google.com" target="_blank"><img src="http://f.cl.ly/items/2r3I151r2j1W0h1B2Q0X/demo2.jpg"></a></li>
-            </ul>
-        </div>
-        <div class="row">
-            <ul class="small-block-grid-3">
-              <li>Yo dawg</li>
-              <li>Heard you lik</li>
-              <li>Data</li>
-            </ul>
+            <div class="large-12 columns">
+                <ul data-orbit>
+                    <li data-orbit-slide="headline-1">
+                        <div class="row">
+                            <div class="large-3 columns">
+                                <img src="http://placehold.it/200x200" />
+                            </div>
+                            <div class="large-9 columns">
+                                <h2> Rutgers University </h2>
+                                <p> We are doing cool shit in the New Brunswick area buddy. </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li data-orbit-slide="headline-2">
+                        <div class="row">
+                            <div class="large-3 columns">
+                                <img src="http://placehold.it/200x200" />
+                            </div>
+                            <div class="large-9 columns">
+                                <h2> University of Pennsylvania </h2>
+                                <p> We are doing cool shit in the New Brunswick area buddy. </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li data-orbit-slide="headline-3">
+                        <div class="row">
+                            <div class="large-3 columns">
+                                <img src="http://placehold.it/200x200" />
+                            </div>
+                            <div class="large-9 columns">
+                                <h2> Carnegie Mellon University </h2>
+                                <p> We are doing cool shit in the New Brunswick area buddy. </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li data-orbit-slide="headline-3">
+                        <div class="row">
+                            <div class="large-3 columns">
+                                <img src="http://placehold.it/200x200" />
+                            </div>
+                            <div class="large-9 columns">
+                                <h2> Columbia University </h2>
+                                <p> We are doing cool shit in the New Brunswick area buddy. </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li data-orbit-slide="headline-3">
+                        <div class="row">
+                            <div class="large-3 columns">
+                                <img src="http://placehold.it/200x200" />
+                            </div>
+                            <div class="large-9 columns">
+                                <h2> University of Waterloo </h2>
+                                <p> We are doing cool shit in the New Brunswick area buddy. </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li data-orbit-slide="headline-3">
+                        <div class="row">
+                            <div class="large-3 columns">
+                                <img src="http://placehold.it/200x200" />
+                            </div>
+                            <div class="large-9 columns">
+                                <h2> Duke University </h2>
+                                <p> We are doing cool shit in the New Brunswick area buddy. </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
         </div>
     </div>
     <div class="box">
@@ -114,8 +173,13 @@
         </div>
     </div>
     <script>
-        $(document).foundation();
+        $(document).foundation('orbit', {
+            'slide_number': false,
+            'timer': true,
+            'animation': 'fade',
+            'navigation_arrows': false,
+            'bullets_container_class': 'orbit-bullets',
+        });
     </script>
-    
 </body>
 </html>

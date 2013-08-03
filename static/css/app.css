@@ -47,3 +47,10 @@ div.banner div.banner-panel {
     opacity: 0.9;
 }
 
+ul.slideme {
+    list-style: none;
+}
+
+div.orbit-container {
+    background: none;
+}

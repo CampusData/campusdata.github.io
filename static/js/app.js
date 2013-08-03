@@ -1,2 +1,5 @@
-// our javascript code goes here.
-console.log("hello world");
+$(function() {
+    // our javascript code goes here.
+    console.log("hello world");
+
+});
