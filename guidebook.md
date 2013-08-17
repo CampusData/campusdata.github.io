@@ -1,1 +1,124 @@
 # Campus Data Guidebook
+
+
+## Working with the School
+
+### Administrative Problems
+
+*Defense - Making sure administration doesn’t quash initiatives*
+
+#### Make friends with faculty
+
+At Carnegie Mellon, we originally started our campus data initiative as a weekend project to scrape and parse some HTML.
+It was when we realized students were getting in trouble for using campus data that we decided we wanted to pursue this
+from a policy perspective as well. Since we were doing things that made technophobic bureaucracies cry at night, 
+what we found useful was finding some distinguished faculty to be on our side. These faculty members didn’t really
+understand or care to understand administration, but were nonetheless good people to defend us. We also gained the
+favor of the School of Computer Science undergraduate dean, who did try to protect us minimally before we were
+recognized. - **Amy Quispe, ScottyLabs**
+
+
+#### Forgiveness, not permission
+
+At Columbia, we have an extensive bureaucracy that claims control over the school as a whole. Our campus data project
+started as an effort to make (like many peer institutions) a modernized course scheduling application. The Center
+for Student Advising expected students to build schedules by hand each semester, with the help of an online class
+bulletin with times, section call numbers, courses, and the like. We figured that it would be both easier and faster
+to ask for forgiveness rather than permission, and so started by scraping the data off of the course bulletin.
+We transitioned to working directly with administration after our course builder gained traction within the student
+body, and so came in with a fair amount of negotiating leverage. - **Robert Ying, ADI**
+
+
+#### Be proactive about their fears
+
+Early on, I met with a senior IT director in the Engineering school. She told me that about half a decade ago,
+the CS club had a bunch of servers that they used in engineering, but after abusive behavior the permissions were
+revoked.  “That’s not us,” I told her, and explained our mission in detail.  I explained that we were only looking
+for read-only data to start with, and that for any data beyond that we’d have API keys and that we’d be able to
+track who asked for what data.  The IT department had a reasonable shot of blocking our progress; making them
+comfortable avoided a huge issue. - **Alexey, PennApps Labs**
+
+
+*Offense - Getting administration excited*
+
+#### Do something big, and well
+
+Administration was only mildly threatened by the existence of ScottyLabs at the beginning; our existence wasn’t
+known to many. It was after we organized our first hackathon, TartanHacks, that suddenly we were getting praise.
+The school had never seen an initiative like this come out of their computer scientists, and were excited to see
+what kind of innovation we could bring. The success of our first hackathon suddenly make the administration highly
+compliant. - **Amy Quispe, ScottyLabs**
+
+
+
+#### Make the administration look good
+
+It’s a lot easier to support an initiative if doing so helps you. We were funded by the Student Government and the
+Provost’s office, both of which benefitted from being perceived as innovative.  We gave them as much credit as we
+could, and they returned in kind by helping promote the things we created. - **Alexey Komissarouk, PennApps Labs**
+
+
+
+#### Talk about stuff they care about
+
+Due to the student response following the release of courses, we were able to arrange data dumps for specific data
+(courses, events, alumni affairs, housing) for our own applications. We had significant support from the CS department
+at Columbia, in part because of an increased undergraduate enrollment in the CS program. In particular, we found that
+the CS undergraduate dean was helpful in pitching the ideas of open data to tenured professors and lecturers.
+Alumni were also vocal in their support of open data, mirroring the NYC big data initiatives. - **Robert Ying, ADI**
+
+
+
+#### Centralization means apps break less
+
+At uWaterloo, one of the common problems across campus was that students developers would write their own scrapers,
+make services and distribute it to other students. When those scrapers break, everyone else dependent of the apps
+would suffer and the patch times would vary on the developer’s availability. Having an university managed API, even
+if data isn’t coming from university feeds, being a central source for providing scraped data does wonders. 
+This way, when something breaks, a fix is only required at one place. - **Kartik Talwar, UW OpenData**
+
+
+#### Screw everything, raise money
+
+PennApps Labs’ first (and so far, only) non-university funding was an earmarked $5,000 donation from a recent CS
+alum who had just sold his company for boatloads of money.  That was nice, because whenever we wanted to work on
+something that we never explicitly got chartered for, we’d have the ability to point to the funding that was
+specifically allocated to us.   Possible sources of independent-ish funding: Sunlight Foundation OpenGov Grants,
+Mozilla Grants, Google.org, successful alumni, Hackathon Partnership (allocate part of the money raised for your
+school’s hackathon to campus data), traditional tech companies, and your city’s data initiative (Philly has Philly
+Data, for example).  A side benefit of having independent funding is that the powers that be are a lot more
+comfortable supporting something that is clearly already happening. - **Alexey Komissarouk, PennApps Labs**
+
+
+### Data Collection
+
+*Obtaining usable data and working with poorly formatted data*
+
+#### Cron is a wonderful thing
+
+Scraped or unscraped, polling for updates can be done via cron and to a great granularity. At Waterloo, we scrape
+most of the data that powers the API, but the crons also function as notifiers to confirm if the scraper still works.
+Scraped data is volatile but having checks and disclaimers about the update frequency and consistency for the data
+makes a big difference. - **Kartik Talwar , uWaterloo OpenData**
+
+
+#### Scrape, but not too often
+
+Scrapers are never perfect, and what a computer can successfully parse is a small subset of people can understand.
+Different departments / organizations, too, may have completely different methods of keeping internal records.
+At Columbia, we found that we had to repair or rewrite our data parsers on at least a semesterly basis, to the point
+where we would rather have outdated data without errors than errors introduced by untested scrapers. Time is limited,
+and a proof of concept is more important than a perfect app. We started marketing our applications at a time when
+they worked well only for maybe 90% of users, but it was enough to gain mindshare. Now, we've got regular
+machine-readable data dumps from the registrar. - **Robert Ying, ADI**
+
+
+#### Get cross-promoted by your data sources
+
+One of the things I wish I’d done earlier was to get the various data sources to link to us. We wrote a registrar API
+to avoid scraping, but I know of at least a few projects who re-scraped for their projects. We built a room reservation
+aggregator, but most students continued to use the library’s reservation system.  The solution to both of those problem
+is to get buy-in from [the registrar/the library] to prominently include links saying, effectively: "Here’s where you go
+if you want this. Don’t scrape, your problem has already been addressed properly." - **Alexey, PennApps Labs**
+
+
