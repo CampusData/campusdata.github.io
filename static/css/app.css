@@ -59,3 +59,7 @@ ul.slideme {
 div.orbit-container {
     background: none;
 }
+
+a.orbit-prev, a.orbit-next {
+    opacity: 0.5;
+}
