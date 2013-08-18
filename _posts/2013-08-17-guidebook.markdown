@@ -2,10 +2,13 @@
 layout: guidebook
 permalink: guidebook/index.html
 ---
+_Last updated on {{ site.time | date: "%d %B %Y" }}_
+
+
 ## Intro to the Guidebook
 
 Welcome to the Campus Data Guidebook! We hope this can help you start your campus data project. This is a living document
-created by students from a variety of schools; we'd like to give you tips and share our stories. As you work on campus 
+created by students from a variety of schools; we'd like to give you tips and share our stories. As you work on campus
 data project and overcome hurdles, send us a pull request to [share your story](https://github.com/campusdata/campusdata.github.io/).
 Help us fight for open data everywhere!
 
@@ -19,7 +22,7 @@ Help us fight for open data everywhere!
 
 At Carnegie Mellon, we originally started our campus data initiative as a weekend project to scrape and parse some HTML.
 It was when we realized students were getting in trouble for using campus data that we decided we wanted to pursue this
-from a policy perspective as well. Since we were doing things that made technophobic bureaucracies cry at night, 
+from a policy perspective as well. Since we were doing things that made technophobic bureaucracies cry at night,
 what we found useful was finding some distinguished faculty to be on our side. These faculty members didn’t really
 understand or care to understand administration, but were nonetheless good people to defend us. We also gained the
 favor of the School of Computer Science undergraduate dean, who did try to protect us minimally before we were
@@ -81,7 +84,7 @@ Alumni were also vocal in their support of open data, mirroring the NYC big data
 At uWaterloo, one of the common problems across campus was that students developers would write their own scrapers,
 make services and distribute it to other students. When those scrapers break, everyone else dependent of the apps
 would suffer and the patch times would vary on the developer’s availability. Having an university managed API, even
-if data isn’t coming from university feeds, being a central source for providing scraped data does wonders. 
+if data isn’t coming from university feeds, being a central source for providing scraped data does wonders.
 This way, when something breaks, a fix is only required at one place. - **[Kartik Talwar][kartik], [UW OpenData][uw]**
 
 
