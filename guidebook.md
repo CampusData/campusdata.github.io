@@ -159,4 +159,21 @@ Having a place that simply lists what other’s have done with the data can be a
 to try to do something different, better or new. (http://wattools.com) - **Kartik Talwar, uWaterloo OpenData**
 
 
+### Continuity
+
+*Making organizations and initiatives that last*
+
+#### Have a Constitution
+
+The student government asked PennApps Labs to write a [constitution](https://docs.google.com/document/d/169lcMzPJEEg_A-9aw-3OR7WyT2nnH0RS-_6TlDt4Zzo/edit?authkey=CPHXqNkB) before we would receive their funding support.
+As a result, we had to think through how leadership would get passed down, how responsibility would be separated and
+what we’d be accountable for.  Our current model is Sith-based - two student leaders, a master and an apprentice,
+with a jump every semester or so.  Time will tell is a year is too short. - **Alexey, PennApps Labs**
+
+
+#### Look for mission-driven individuals
+
+Before ScottyLabs was founded, there was another earlier attempt to create a team to make APIs for school data,
+which failed for a variety of reasons, but in part because the team did not care about - **Amy Quispe, ScottyLabs**
+
 
