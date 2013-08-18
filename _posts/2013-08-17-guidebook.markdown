@@ -9,7 +9,7 @@ _Last updated on {{ site.time | date: "%d %B %Y" }}_
 
 Welcome to the Campus Data Guidebook! We hope this can help you start your campus data project. This is a living document
 created by students from a variety of schools; we'd like to give you tips and share our stories. As you work on campus
-data project and overcome hurdles, send us a pull request to [share your story](https://github.com/campusdata/campusdata.github.io/).
+data projects and overcome hurdles, send us a pull request to [share your story](https://github.com/campusdata/campusdata.github.io/).
 Help us fight for open data everywhere!
 
 ## Working with the School
