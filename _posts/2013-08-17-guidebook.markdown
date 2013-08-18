@@ -11,8 +11,6 @@ permalink: guidebook/index.html
 
 *Defense - Making sure administration doesn’t quash initiatives*
 
-<div class="thing">
-
 #### Make friends with faculty
 
     At Carnegie Mellon, we originally started our campus data initiative as a weekend project to scrape and parse some HTML.
@@ -22,10 +20,6 @@ permalink: guidebook/index.html
     understand or care to understand administration, but were nonetheless good people to defend us. We also gained the
     favor of the School of Computer Science undergraduate dean, who did try to protect us minimally before we were
     recognized. - **Amy Quispe, ScottyLabs**
-</div>
-
-<div class="thing">
-
 
 #### Forgiveness, not permission
 
@@ -36,7 +30,6 @@ permalink: guidebook/index.html
     to ask for forgiveness rather than permission, and so started by scraping the data off of the course bulletin.
     We transitioned to working directly with administration after our course builder gained traction within the student
     body, and so came in with a fair amount of negotiating leverage. - **Robert Ying, ADI**
-</div>
 
 
 #### Be proactive about their fears
