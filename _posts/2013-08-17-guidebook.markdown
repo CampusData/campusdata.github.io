@@ -19,7 +19,7 @@ from a policy perspective as well. Since we were doing things that made technoph
 what we found useful was finding some distinguished faculty to be on our side. These faculty members didn’t really
 understand or care to understand administration, but were nonetheless good people to defend us. We also gained the
 favor of the School of Computer Science undergraduate dean, who did try to protect us minimally before we were
-recognized. - **Amy Quispe, ScottyLabs**
+recognized. - **[Amy Quispe][amy], [ScottyLabs][scottylabs]**
 
 #### Forgiveness, not permission
 
@@ -29,7 +29,7 @@ for Student Advising expected students to build schedules by hand each semester,
 bulletin with times, section call numbers, courses, and the like. We figured that it would be both easier and faster
 to ask for forgiveness rather than permission, and so started by scraping the data off of the course bulletin.
 We transitioned to working directly with administration after our course builder gained traction within the student
-body, and so came in with a fair amount of negotiating leverage. - **Robert Ying, ADI**
+body, and so came in with a fair amount of negotiating leverage. - **[Robert Ying][robert], [ADI][adi]**
 
 
 #### Be proactive about their fears
@@ -39,7 +39,7 @@ the CS club had a bunch of servers that they used in engineering, but after abus
 revoked.  “That’s not us,” I told her, and explained our mission in detail.  I explained that we were only looking
 for read-only data to start with, and that for any data beyond that we’d have API keys and that we’d be able to
 track who asked for what data.  The IT department had a reasonable shot of blocking our progress; making them
-comfortable avoided a huge issue. - **Alexey, PennApps Labs**
+comfortable avoided a huge issue. - **[Alexey Komissarouk][alexey], [PennApps Labs][pennapps]**
 
 
 *Offense - Getting administration excited*
@@ -50,7 +50,7 @@ Administration was only mildly threatened by the existence of ScottyLabs at the 
 known to many. It was after we organized our first hackathon, TartanHacks, that suddenly we were getting praise.
 The school had never seen an initiative like this come out of their computer scientists, and were excited to see
 what kind of innovation we could bring. The success of our first hackathon suddenly make the administration highly
-compliant. - **Amy Quispe, ScottyLabs**
+compliant. - **[Amy Quispe][amy], [ScottyLabs][scottylabs]**
 
 
 
@@ -58,7 +58,7 @@ compliant. - **Amy Quispe, ScottyLabs**
 
 It’s a lot easier to support an initiative if doing so helps you. We were funded by the Student Government and the
 Provost’s office, both of which benefitted from being perceived as innovative.  We gave them as much credit as we
-could, and they returned in kind by helping promote the things we created. - **Alexey Komissarouk, PennApps Labs**
+could, and they returned in kind by helping promote the things we created. - **[Alexey Komissarouk][alexey], [PennApps Labs][pennapps]**
 
 
 
@@ -68,7 +68,7 @@ Due to the student response following the release of courses, we were able to ar
 (courses, events, alumni affairs, housing) for our own applications. We had significant support from the CS department
 at Columbia, in part because of an increased undergraduate enrollment in the CS program. In particular, we found that
 the CS undergraduate dean was helpful in pitching the ideas of open data to tenured professors and lecturers.
-Alumni were also vocal in their support of open data, mirroring the NYC big data initiatives. - **Robert Ying, ADI**
+Alumni were also vocal in their support of open data, mirroring the NYC big data initiatives. - **[Robert Ying][robert], [ADI][adi]**
 
 
 
@@ -78,7 +78,7 @@ At uWaterloo, one of the common problems across campus was that students develop
 make services and distribute it to other students. When those scrapers break, everyone else dependent of the apps
 would suffer and the patch times would vary on the developer’s availability. Having an university managed API, even
 if data isn’t coming from university feeds, being a central source for providing scraped data does wonders. 
-This way, when something breaks, a fix is only required at one place. - **Kartik Talwar, UW OpenData**
+This way, when something breaks, a fix is only required at one place. - **[Kartik Talwar][kartik], [UW OpenData][uw]**
 
 
 #### Screw everything, raise money
@@ -90,7 +90,7 @@ specifically allocated to us.   Possible sources of independent-ish funding: Sun
 Mozilla Grants, Google.org, successful alumni, Hackathon Partnership (allocate part of the money raised for your
 school’s hackathon to campus data), traditional tech companies, and your city’s data initiative (Philly has Philly
 Data, for example).  A side benefit of having independent funding is that the powers that be are a lot more
-comfortable supporting something that is clearly already happening. - **Alexey Komissarouk, PennApps Labs**
+comfortable supporting something that is clearly already happening. - **[Alexey Komissarouk][alexey], [PennApps Labs][pennapps]**
 
 
 ### Data Collection
@@ -102,7 +102,7 @@ comfortable supporting something that is clearly already happening. - **Alexey K
 Scraped or unscraped, polling for updates can be done via cron and to a great granularity. At Waterloo, we scrape
 most of the data that powers the API, but the crons also function as notifiers to confirm if the scraper still works.
 Scraped data is volatile but having checks and disclaimers about the update frequency and consistency for the data
-makes a big difference. - **Kartik Talwar , uWaterloo OpenData**
+makes a big difference. - **[Kartik Talwar][kartik] , [uWaterloo OpenData][uw]**
 
 
 #### Scrape, but not too often
@@ -113,7 +113,7 @@ At Columbia, we found that we had to repair or rewrite our data parsers on at le
 where we would rather have outdated data without errors than errors introduced by untested scrapers. Time is limited,
 and a proof of concept is more important than a perfect app. We started marketing our applications at a time when
 they worked well only for maybe 90% of users, but it was enough to gain mindshare. Now, we've got regular
-machine-readable data dumps from the registrar. - **Robert Ying, ADI**
+machine-readable data dumps from the registrar. - **[Robert Ying][robert], [ADI][adi]**
 
 
 #### Get cross-promoted by your data sources
@@ -122,7 +122,7 @@ One of the things I wish I’d done earlier was to get the various data sources 
 to avoid scraping, but I know of at least a few projects who re-scraped for their projects. We built a room reservation
 aggregator, but most students continued to use the library’s reservation system.  The solution to both of those problem
 is to get buy-in from [the registrar/the library] to prominently include links saying, effectively: "Here’s where you go
-if you want this. Don’t scrape, your problem has already been addressed properly." - **Alexey, PennApps Labs**
+if you want this. Don’t scrape, your problem has already been addressed properly." - **[Alexey Komissarouk][alexey], [PennApps Labs][pennapps]**
 
 
 ### Working with the Community
@@ -132,7 +132,7 @@ if you want this. Don’t scrape, your problem has already been addressed proper
 
 #### Host a Hackathon
 
-Host and demo at hackathons. - **Alexey, PennApps Labs**
+Host and demo at hackathons. - **[Alexey Komissarouk][alexey], [PennApps Labs][pennapps]**
 
 
 #### Work with professors to enrich existing classes
@@ -143,7 +143,7 @@ with the professor to determine the proper scope for a client project, namely mo
 applications, and provided APIs and access to our resources to four student teams. A Labs representative (i.e., me) met
 with each team for half an hour each week to provide feedback on the iterations. Though the final products needed polish,
 we were very happy with the results. It also got students interested in, and invested in, PennApps Labs. Many courses
-have a final project—look into working with iOS/Android classes, data systems classes, whatever—it never hurts to ask! - Amalia Hawkins, PennApps Labs
+have a final project—look into working with iOS/Android classes, data systems classes, whatever—it never hurts to ask! - **[Amalia Hawkins][amalia], [PennApps Labs][pennapps]**
 
 
 #### Offer Prizes
@@ -152,14 +152,14 @@ One idea we’d been kicking for a couple of years was to host a demo event at t
 the community were encouraged to show off their work.  Students who build stuff on top of your APIs would get some sort
 of prize - probably something small like an iPad Mini - and an invitation to dinner with the team, as well as a mention
 on your website/twitter account.  The prize isn’t itself the goal. You’re trying to convince that hackers who take the
-time to build useful things for their peers deserve recognition and respect. - **Alexey, PennApps Labs**
+time to build useful things for their peers deserve recognition and respect. - **[Alexey Komissarouk][alexey], [PennApps Labs][pennapps]**
 
 
 #### Feature Creations
 
 Most students just like to play around with the available data but don’t like showing what they’ve done.
 Having a place that simply lists what other’s have done with the data can be a great motivator for others
-to try to do something different, better or new. (http://wattools.com) - **Kartik Talwar, uWaterloo OpenData**
+to try to do something different, better or new. (http://wattools.com) - **[Kartik Talwar][kartik], [uWaterloo OpenData][uw]**
 
 
 ### Continuity
@@ -171,11 +171,20 @@ to try to do something different, better or new. (http://wattools.com) - **Karti
 The student government asked PennApps Labs to write a [constitution](https://docs.google.com/document/d/169lcMzPJEEg_A-9aw-3OR7WyT2nnH0RS-_6TlDt4Zzo/edit?authkey=CPHXqNkB) before we would receive their funding support.
 As a result, we had to think through how leadership would get passed down, how responsibility would be separated and
 what we’d be accountable for.  Our current model is Sith-based - two student leaders, a master and an apprentice,
-with a jump every semester or so.  Time will tell is a year is too short. - **Alexey, PennApps Labs**
+with a jump every semester or so.  Time will tell is a year is too short. - **[Alexey Komissarouk][alexey], [PennApps Labs][pennapps]**
 
 
 #### Look for mission-driven individuals
 
 Before ScottyLabs was founded, there was another earlier attempt to create a team to make APIs for school data,
-which failed for a variety of reasons, but in part because the team did not care about - **Amy Quispe, ScottyLabs**
+which failed for a variety of reasons, but in part because the team did not care about - **[Amy Quispe][amy], [ScottyLabs][scottylabs]**
 
+[amy]: http://twitter.com/amyquispe
+[scottylabs]: http://scottylabs.org
+[robert]: http://robertying.com
+[adi]: http://adicu.com
+[alexey]: http://alexeymk.com
+[pennapps]: http://labs.pennapps.com
+[amalia]: https://twitter.com/starsseldomseen
+[kartik]: http://kartikt.com
+[uw]: http://api.uwaterloo.ca
