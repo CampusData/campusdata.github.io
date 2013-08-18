@@ -13,23 +13,23 @@ permalink: guidebook/index.html
 
 #### Make friends with faculty
 
-    At Carnegie Mellon, we originally started our campus data initiative as a weekend project to scrape and parse some HTML.
-    It was when we realized students were getting in trouble for using campus data that we decided we wanted to pursue this
-    from a policy perspective as well. Since we were doing things that made technophobic bureaucracies cry at night, 
-    what we found useful was finding some distinguished faculty to be on our side. These faculty members didn’t really
-    understand or care to understand administration, but were nonetheless good people to defend us. We also gained the
-    favor of the School of Computer Science undergraduate dean, who did try to protect us minimally before we were
-    recognized. - **Amy Quispe, ScottyLabs**
+At Carnegie Mellon, we originally started our campus data initiative as a weekend project to scrape and parse some HTML.
+It was when we realized students were getting in trouble for using campus data that we decided we wanted to pursue this
+from a policy perspective as well. Since we were doing things that made technophobic bureaucracies cry at night, 
+what we found useful was finding some distinguished faculty to be on our side. These faculty members didn’t really
+understand or care to understand administration, but were nonetheless good people to defend us. We also gained the
+favor of the School of Computer Science undergraduate dean, who did try to protect us minimally before we were
+recognized. - **Amy Quispe, ScottyLabs**
 
 #### Forgiveness, not permission
 
-    At Columbia, we have an extensive bureaucracy that claims control over the school as a whole. Our campus data project
-    started as an effort to make (like many peer institutions) a modernized course scheduling application. The Center
-    for Student Advising expected students to build schedules by hand each semester, with the help of an online class
-    bulletin with times, section call numbers, courses, and the like. We figured that it would be both easier and faster
-    to ask for forgiveness rather than permission, and so started by scraping the data off of the course bulletin.
-    We transitioned to working directly with administration after our course builder gained traction within the student
-    body, and so came in with a fair amount of negotiating leverage. - **Robert Ying, ADI**
+At Columbia, we have an extensive bureaucracy that claims control over the school as a whole. Our campus data project
+started as an effort to make (like many peer institutions) a modernized course scheduling application. The Center
+for Student Advising expected students to build schedules by hand each semester, with the help of an online class
+bulletin with times, section call numbers, courses, and the like. We figured that it would be both easier and faster
+to ask for forgiveness rather than permission, and so started by scraping the data off of the course bulletin.
+We transitioned to working directly with administration after our course builder gained traction within the student
+body, and so came in with a fair amount of negotiating leverage. - **Robert Ying, ADI**
 
 
 #### Be proactive about their fears
