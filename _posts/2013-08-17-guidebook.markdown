@@ -2,15 +2,13 @@
 layout: guidebook
 permalink: guidebook/index.html
 ---
-_Last updated on {{ site.time | date: "%d %B %Y" }}_
-
-
 ## Intro to the Guidebook
 
 Welcome to the Campus Data Guidebook! We hope this can help you start your campus data project. This is a living document
-created by students from a variety of schools; we'd like to give you tips and share our stories. As you work on campus
-data projects and overcome hurdles, send us a pull request to [share your story](https://github.com/campusdata/campusdata.github.io/).
-Help us fight for open data everywhere!
+created by students from a variety of schools; we'd like to give you tips and share our stories. This book contains different
+experiences from various institutions, so we might not agree all the time, but we're all striving towards the same goals.
+Figure out what works best for your school. As you work on campus data and overcome hurdles, send us a pull request to
+[share your story](https://github.com/campusdata/campusdata.github.io/). Help us fight for open data everywhere!
 
 ## Working with the School
 
@@ -22,11 +20,10 @@ Help us fight for open data everywhere!
 
 At Carnegie Mellon, we originally started our campus data initiative as a weekend project to scrape and parse some HTML.
 It was when we realized students were getting in trouble for using campus data that we decided we wanted to pursue this
-from a policy perspective as well. Since we were doing things that made technophobic bureaucracies cry at night,
-what we found useful was finding some distinguished faculty to be on our side. These faculty members didn’t really
-understand or care to understand administration, but were nonetheless good people to defend us. We also gained the
-favor of the School of Computer Science undergraduate dean, who did try to protect us minimally before we were
-recognized. - **[Amy Quispe][amy], [ScottyLabs][scottylabs]**
+from a policy perspective as well. We found it useful to get some distinguished faculty to be on our side. These faculty
+members didn’t always understand or care to understand administration, but were nonetheless good people to defend us.
+We also gained the favor of the School of Computer Science undergraduate dean, who helped protuect us before we were
+officially recognized. - **[Amy Quispe][amy], [ScottyLabs][scottylabs]**
 
 #### Forgiveness, not permission
 
@@ -84,7 +81,7 @@ Alumni were also vocal in their support of open data, mirroring the NYC big data
 At uWaterloo, one of the common problems across campus was that students developers would write their own scrapers,
 make services and distribute it to other students. When those scrapers break, everyone else dependent of the apps
 would suffer and the patch times would vary on the developer’s availability. Having an university managed API, even
-if data isn’t coming from university feeds, being a central source for providing scraped data does wonders.
+if data isn’t coming from university feeds, being a central source for providing scraped data does wonders. 
 This way, when something breaks, a fix is only required at one place. - **[Kartik Talwar][kartik], [UW OpenData][uw]**
 
 
@@ -139,7 +136,11 @@ if you want this. Don’t scrape, your problem has already been addressed proper
 
 #### Host a Hackathon
 
-Host and demo at hackathons. - **[Alexey Komissarouk][alexey], [PennApps Labs][pennapps]**
+Hackathons are the perfect venue to promote APIs. Students are very eager to try to solve problems that they see around
+them, and so are often excited to use campus data if they know it's available. This can also be incentivized through prizes
+and promises of school adoption.
+The original concept behind [TartanHacks](http://tartanhacks.com/) was that we would create a hackathon to promote
+our own APIs.
 
 
 #### Work with professors to enrich existing classes
