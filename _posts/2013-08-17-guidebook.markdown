@@ -174,7 +174,7 @@ with a jump every semester or so.  Time will tell is a year is too short. - **[A
 #### Look for mission-driven individuals
 
 Before ScottyLabs was founded, there was another earlier attempt to create a team to make APIs for school data,
-which failed for a variety of reasons, but in part because the team did not care about - **[Amy Quispe][amy], [ScottyLabs][scottylabs]**
+which failed for a variety of reasons, but in part because the team did not care about the mission as much as they did hanging out with each other. When ScottyLabs was founded, we didn't all know each other. However, we pulled in people one at a time; each person that we pulled in was needed for their unique skillset, and was sold foremost on what we were trying to create. - **[Amy Quispe][amy], [ScottyLabs][scottylabs]**
 
 [amy]: http://twitter.com/amyquispe
 [scottylabs]: http://scottylabs.org
