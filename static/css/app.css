@@ -12,9 +12,23 @@ div.banner form {
     margin-bottom: 0px;
 }
 
-div.box {
+div.about {
+    padding-top: 20px;
     width: 100%;
-    height: 450px;
+    height: 230px;
+}
+
+div.members {
+    padding-top: 20px;
+    background: lightblue;
+    width: 100%;
+    height: 370px;
+}
+
+div.learnmore {
+    padding-top: 20px;
+    width: 100%;
+    height: 300px;
 }
 
 div.banner h1.title {
@@ -39,11 +53,6 @@ h1,h2,h3,p,a.button {
 
 span.red {
     color: rgb(180, 0, 0);
-}
-div.dark {
-	background: lightblue;
-	width: 100%;
-    height: 450px;
 }
 
 div.banner div.banner-panel {
