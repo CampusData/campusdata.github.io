@@ -180,4 +180,3 @@ with a jump every semester or so.  Time will tell is a year is too short. - **Al
 Before ScottyLabs was founded, there was another earlier attempt to create a team to make APIs for school data,
 which failed for a variety of reasons, but in part because the team did not care about - **Amy Quispe, ScottyLabs**
 
-
