@@ -65,6 +65,10 @@ div.banner div.banner-panel {
     margin-left: 25px;
 }
 
+.home-button {
+    margin-right: 100px;
+}
+
 ul.slideme {
     list-style: none;
 }
