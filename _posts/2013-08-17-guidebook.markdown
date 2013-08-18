@@ -2,6 +2,14 @@
 layout: guidebook
 permalink: guidebook/index.html
 ---
+## Intro to the Guidebook
+
+Welcome to the Campus Data Guidebook! We hope this can help you start your campus data project. This is a living document
+created by students from a variety of schools; we'd like to give you tips and share our stories. This book contains different
+experiences from various institutions, so we might not agree all the time, but we're all striving towards the same goals.
+Figure out what works best for your school. As you work on campus data and overcome hurdles, send us a pull request to
+[share your story](https://github.com/campusdata/campusdata.github.io/). Help us fight for open data everywhere!
+
 ## Working with the School
 
 <a name="admin"> </a>
@@ -14,11 +22,10 @@ permalink: guidebook/index.html
 
 At Carnegie Mellon, we originally started our campus data initiative as a weekend project to scrape and parse some HTML.
 It was when we realized students were getting in trouble for using campus data that we decided we wanted to pursue this
-from a policy perspective as well. Since we were doing things that made technophobic bureaucracies cry at night, 
-what we found useful was finding some distinguished faculty to be on our side. These faculty members didn’t really
-understand or care to understand administration, but were nonetheless good people to defend us. We also gained the
-favor of the School of Computer Science undergraduate dean, who did try to protect us minimally before we were
-recognized. - **[Amy Quispe][amy], [ScottyLabs][scottylabs]**
+from a policy perspective as well. We found it useful to get some distinguished faculty to be on our side. These faculty
+members didn’t always understand or care to understand administration, but were nonetheless good people to defend us.
+We also gained the favor of the School of Computer Science undergraduate dean, who helped protuect us before we were
+officially recognized. - **[Amy Quispe][amy], [ScottyLabs][scottylabs]**
 
 <a name="forgiveness"></a>
 #### Forgiveness, not permission
@@ -142,7 +149,11 @@ if you want this. Don’t scrape, your problem has already been addressed proper
 
 #### Host a Hackathon
 
-Host and demo at hackathons. - **[Alexey Komissarouk][alexey], [PennApps Labs][pennapps]**
+Hackathons are the perfect venue to promote APIs. Students are very eager to try to solve problems that they see around
+them, and so are often excited to use campus data if they know it's available. This can also be incentivized through prizes
+and promises of school adoption.
+The original concept behind [TartanHacks](http://tartanhacks.com/) was that we would create a hackathon to promote
+our own APIs.
 
 <a name="work-with-professors"> </a>
 
@@ -192,7 +203,7 @@ with a jump every semester or so.  Time will tell is a year is too short. - **[A
 #### Look for mission-driven individuals
 
 Before ScottyLabs was founded, there was another earlier attempt to create a team to make APIs for school data,
-which failed for a variety of reasons, but in part because the team did not care about - **[Amy Quispe][amy], [ScottyLabs][scottylabs]**
+which failed for a variety of reasons, but in part because the team did not care about the mission as much as they did hanging out with each other. When ScottyLabs was founded, we didn't all know each other. However, we pulled in people one at a time; each person that we pulled in was needed for their unique skillset, and was sold foremost on what we were trying to create. - **[Amy Quispe][amy], [ScottyLabs][scottylabs]**
 
 [amy]: http://twitter.com/amyquispe
 [scottylabs]: http://scottylabs.org
