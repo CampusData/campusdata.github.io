@@ -1,20 +1,82 @@
 ---
 layout: default
 ---
-<div class="row">
-    <div class="large-9 columns">
-        <h1> Campus Data Guidebook </h1>
-    </div>
-    <div class="large-3 columns">
-        <a class="button" href="/"> Back to Home </a>
-    </div>
 </div>
-<div class="row">
-    <div class="large-12 columns">
+<div class="row full-row">
+    <div class="large-3 columns">
+        <div id="locked" class="locked section-container accordion" data-section="accordion">
+            <section class="section active">
+                <p class="title"> Working with the School </p>
+                <div class="content">
+                    <ul class="side-nav">
+                        <li>
+                            <a href="#admin"> Administrative Problems </a>
+                            <a href="#make-friends"> Make friends with faculty </a>
+                            <a href="#forgiveness"> Forgiveness, not permission </a>
+                            <a href="#proactive"> Be proactive about their fears </a>
+                            <a href="#do-something"> Do something big, and well </a>
+                            <a href="#look-good"> Make the administration look good</a>
+                            <a href="#talk-about-stuff"> Talk about stuff they care about </a>
+                            <a href="#centralization"> Centralization means apps break less </a>
+                            <a href="#screw"> Screw everything raise money </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>            
+            <section class="section active">
+                <p class="title"> Data Collection </p>
+                <div class="content">
+                    <ul class="side-nav">
+                        <li>
+                            <a href="#cron"> Cron is a wonderful thing </a>
+                            <a href="#scrape"> Scape, but not too often </a>
+                            <a href="#cross-promoted"> Cross promote your data sources </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section active">
+                <p class="title"> Working with the Community </p>
+                <div class="content">
+                    <ul class="side-nav">
+                        <li>
+                            <a href="#hackathon"> Host a hackathon </a>
+                            <a href="#work-with-professors"> Work with professors to enrich existing classes </a>
+                            <a href="#offer"> Offer Prizes </a>
+                            <a href="#feature-creations"> Feature Creations </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>            
+            <section class="section active">
+                <p class="title"> Continuity </p>
+                <div class="content">
+                    <ul class="side-nav">
+                        <li>
+                            <a href="#constitution"> Have a Constitution </a>
+                            <a href="#mission-driven"> Look for mission-driven individuals </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="large-9 columns">
+        <div class="row">
+            <div class="large-12 columns">
+                <div class="left">
+                    <h1> Campus Data Guidebook </h1>
+                </div>
+                <div class="right">
+                    <a class="button" href="/"> Back to Home </a>
+                </div>
+            </div>
+        </div>
         {{ content }}
     </div>
 </div>
 <script>
     $(document).foundation();
 </script>
+
 

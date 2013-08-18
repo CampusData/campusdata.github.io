@@ -4,10 +4,12 @@ permalink: guidebook/index.html
 ---
 ## Working with the School
 
+<a name="admin"> </a>
 ### Administrative Problems
 
 *Defense - Making sure administration doesn’t quash initiatives*
 
+<a name="make-friends"> </a>
 #### Make friends with faculty
 
 At Carnegie Mellon, we originally started our campus data initiative as a weekend project to scrape and parse some HTML.
@@ -18,6 +20,7 @@ understand or care to understand administration, but were nonetheless good peopl
 favor of the School of Computer Science undergraduate dean, who did try to protect us minimally before we were
 recognized. - **[Amy Quispe][amy], [ScottyLabs][scottylabs]**
 
+<a name="forgiveness"></a>
 #### Forgiveness, not permission
 
 At Columbia, we have an extensive bureaucracy that claims control over the school as a whole. Our campus data project
@@ -28,6 +31,7 @@ to ask for forgiveness rather than permission, and so started by scraping the da
 We transitioned to working directly with administration after our course builder gained traction within the student
 body, and so came in with a fair amount of negotiating leverage. - **[Robert Ying][robert], [ADI][adi]**
 
+<a name="proactive"></a>
 
 #### Be proactive about their fears
 
@@ -41,6 +45,7 @@ comfortable avoided a huge issue. - **[Alexey Komissarouk][alexey], [PennApps La
 
 *Offense - Getting administration excited*
 
+<a name="do-something"></a>
 #### Do something big, and well
 
 Administration was only mildly threatened by the existence of ScottyLabs at the beginning; our existence wasn’t
@@ -50,6 +55,7 @@ what kind of innovation we could bring. The success of our first hackathon sudde
 compliant. - **[Amy Quispe][amy], [ScottyLabs][scottylabs]**
 
 
+<a name="look-good"></a>
 
 #### Make the administration look good
 
@@ -59,6 +65,7 @@ could, and they returned in kind by helping promote the things we created. - **[
 
 
 
+<a name="talk-about-stuff"></a>
 #### Talk about stuff they care about
 
 Due to the student response following the release of courses, we were able to arrange data dumps for specific data
@@ -69,6 +76,7 @@ Alumni were also vocal in their support of open data, mirroring the NYC big data
 
 
 
+<a name="centralization"></a>
 #### Centralization means apps break less
 
 At uWaterloo, one of the common problems across campus was that students developers would write their own scrapers,
@@ -78,6 +86,7 @@ if data isn’t coming from university feeds, being a central source for providi
 This way, when something breaks, a fix is only required at one place. - **[Kartik Talwar][kartik], [UW OpenData][uw]**
 
 
+<a name="screw"></a>
 #### Screw everything, raise money
 
 PennApps Labs’ first (and so far, only) non-university funding was an earmarked $5,000 donation from a recent CS
@@ -94,6 +103,7 @@ comfortable supporting something that is clearly already happening. - **[Alexey 
 
 *Obtaining usable data and working with poorly formatted data*
 
+<a name="cron"></a>
 #### Cron is a wonderful thing
 
 Scraped or unscraped, polling for updates can be done via cron and to a great granularity. At Waterloo, we scrape
@@ -102,6 +112,7 @@ Scraped data is volatile but having checks and disclaimers about the update freq
 makes a big difference. - **[Kartik Talwar][kartik] , [uWaterloo OpenData][uw]**
 
 
+<a name="scrape"></a>
 #### Scrape, but not too often
 
 Scrapers are never perfect, and what a computer can successfully parse is a small subset of people can understand.
@@ -112,6 +123,7 @@ and a proof of concept is more important than a perfect app. We started marketin
 they worked well only for maybe 90% of users, but it was enough to gain mindshare. Now, we've got regular
 machine-readable data dumps from the registrar. - **[Robert Ying][robert], [ADI][adi]**
 
+<a name="cross-promoted"> </a>
 
 #### Get cross-promoted by your data sources
 
@@ -126,11 +138,13 @@ if you want this. Don’t scrape, your problem has already been addressed proper
 
 *Developers - Enabling developers to create things with open data*
 
+<a name="hackathon"> </a>
 
 #### Host a Hackathon
 
 Host and demo at hackathons. - **[Alexey Komissarouk][alexey], [PennApps Labs][pennapps]**
 
+<a name="work-with-professors"> </a>
 
 #### Work with professors to enrich existing classes
 
@@ -142,6 +156,7 @@ with each team for half an hour each week to provide feedback on the iterations.
 we were very happy with the results. It also got students interested in, and invested in, PennApps Labs. Many courses
 have a final project—look into working with iOS/Android classes, data systems classes, whatever—it never hurts to ask! - **[Amalia Hawkins][amalia], [PennApps Labs][pennapps]**
 
+<a name="offer"> </a>
 
 #### Offer Prizes
 
@@ -152,6 +167,7 @@ on your website/twitter account.  The prize isn’t itself the goal. You’re tr
 time to build useful things for their peers deserve recognition and respect. - **[Alexey Komissarouk][alexey], [PennApps Labs][pennapps]**
 
 
+<a name="feature-creations"> </a>
 #### Feature Creations
 
 Most students just like to play around with the available data but don’t like showing what they’ve done.
@@ -163,6 +179,7 @@ to try to do something different, better or new. (http://wattools.com) - **[Kart
 
 *Making organizations and initiatives that last*
 
+<a name="constitution"> </a>
 #### Have a Constitution
 
 The student government asked PennApps Labs to write a [constitution](https://docs.google.com/document/d/169lcMzPJEEg_A-9aw-3OR7WyT2nnH0RS-_6TlDt4Zzo/edit?authkey=CPHXqNkB) before we would receive their funding support.
@@ -171,6 +188,7 @@ what we’d be accountable for.  Our current model is Sith-based - two student l
 with a jump every semester or so.  Time will tell is a year is too short. - **[Alexey Komissarouk][alexey], [PennApps Labs][pennapps]**
 
 
+<a name="mission-driven"> </a>
 #### Look for mission-driven individuals
 
 Before ScottyLabs was founded, there was another earlier attempt to create a team to make APIs for school data,

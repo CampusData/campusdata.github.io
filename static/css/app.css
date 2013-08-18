@@ -72,3 +72,22 @@ div.orbit-container {
 a.orbit-prev, a.orbit-next {
     opacity: 0.5;
 }
+
+div.section-container p.title {
+    padding: 10px;
+}
+
+div#locked {
+    width: 300px;
+}
+
+div.row.full-row {
+    max-width: 80em;
+    margin: 0;
+}
+
+@media (min-width: 1320px) {
+    div.locked.section-container {
+        position: fixed;
+    }
+}
