@@ -122,3 +122,41 @@ is to get buy-in from [the registrar/the library] to prominently include links s
 if you want this. Don’t scrape, your problem has already been addressed properly." - **Alexey, PennApps Labs**
 
 
+### Working with the Community
+
+*Developers - Enabling developers to create things with open data*
+
+
+#### Host a Hackathon
+
+Host and demo at hackathons. - **Alexey, PennApps Labs**
+
+
+#### Work with professors to enrich existing classes
+
+Many colleges now offer courses in “application development”. At UPenn, students in the CIS 350 (Software Engineering)
+course follow an agile development schedule to create an Android application for outside clients. PennApps Labs worked
+with the professor to determine the proper scope for a client project, namely mobile versions for two of our web-based
+applications, and provided APIs and access to our resources to four student teams. A Labs representative (i.e., me) met
+with each team for half an hour each week to provide feedback on the iterations. Though the final products needed polish,
+we were very happy with the results. It also got students interested in, and invested in, PennApps Labs. Many courses
+have a final project—look into working with iOS/Android classes, data systems classes, whatever—it never hurts to ask! - Amalia Hawkins, PennApps Labs
+
+
+#### Offer Prizes
+
+One idea we’d been kicking for a couple of years was to host a demo event at the end of every semester where members of
+the community were encouraged to show off their work.  Students who build stuff on top of your APIs would get some sort
+of prize - probably something small like an iPad Mini - and an invitation to dinner with the team, as well as a mention
+on your website/twitter account.  The prize isn’t itself the goal. You’re trying to convince that hackers who take the
+time to build useful things for their peers deserve recognition and respect. - **Alexey, PennApps Labs**
+
+
+#### Feature Creations
+
+Most students just like to play around with the available data but don’t like showing what they’ve done.
+Having a place that simply lists what other’s have done with the data can be a great motivator for others
+to try to do something different, better or new. (http://wattools.com) - **Kartik Talwar, uWaterloo OpenData**
+
+
+
