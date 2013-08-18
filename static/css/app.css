@@ -61,6 +61,10 @@ div.banner div.banner-panel {
     opacity: 0.9;
 }
 
+.row ul {
+    margin-left: 25px;
+}
+
 ul.slideme {
     list-style: none;
 }
