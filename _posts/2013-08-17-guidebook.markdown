@@ -2,9 +2,6 @@
 layout: guidebook
 permalink: guidebook/index.html
 ---
-# Campus Data Guidebook
-
-
 ## Working with the School
 
 ### Administrative Problems
