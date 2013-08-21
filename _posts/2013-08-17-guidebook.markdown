@@ -24,7 +24,7 @@ At Carnegie Mellon, we originally started our campus data initiative as a weeken
 It was when we realized students were getting in trouble for using campus data that we decided we wanted to pursue this
 from a policy perspective as well. We found it useful to get some distinguished faculty to be on our side. These faculty
 members didn’t always understand or care to understand administration, but were nonetheless good people to defend us.
-We also gained the favor of the School of Computer Science undergraduate dean, who helped protuect us before we were
+We also gained the favor of the School of Computer Science undergraduate dean, who helped protect us before we were
 officially recognized. - **[Amy Quispe][amy], [ScottyLabs][scottylabs]**
 
 <a name="forgiveness"></a>
@@ -153,7 +153,7 @@ Hackathons are the perfect venue to promote APIs. Students are very eager to try
 them, and so are often excited to use campus data if they know it's available. This can also be incentivized through prizes
 and promises of school adoption.
 The original concept behind [TartanHacks](http://tartanhacks.com/) was that we would create a hackathon to promote
-our own APIs.
+our own APIs. - **[Amy Quispe][amy], [ScottyLabs][scottylabs]**
 
 <a name="work-with-professors"> </a>
 
