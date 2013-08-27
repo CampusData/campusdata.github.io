@@ -7,10 +7,10 @@ campusdata.github.io
 ######Publicity
 - Let people know we exist / that we are doing this at our schools
 
-######Dialouge about Campus Data
-- We are starting a dialouge with others
+######Dialogue about Campus Data
+- We are starting a dialogue with others
 - Allow other members to contribute content to the site, and allow people to see what others are doing
-- People from other schools would submit content through a form.
+- People from other schools would submit content through a form
 
 ###Site Goals
 1. Convey our mission
@@ -25,9 +25,9 @@ campusdata.github.io
 
 ###Problems we are trying to solve
 1. Poeple don't know they can make an impact
-2. People don't know others are thinkoing about this issue
-	- Students (Cheif focus)
-	- Universtiy Administrators
+2. People don't know others are thinking about this issue
+	- Students (Chief focus)
+	- University Administrators
 3. Students aren't aware of the OpenData efforts happening at their schools
 	
 ###Ways to join the community
