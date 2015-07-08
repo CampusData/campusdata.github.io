@@ -1,162 +1,76 @@
 ---
-layout: default
+layout: base
 ---
-<div class="banner">
+{% include navbar.html active="home" %}
+<section class="mygreen white-text">
+  <div class="container hero">
     <div class="row">
-        <div class="small-8 large-centered columns text-center">
-            <h1 class="title"> CAMPUS DATA </h1>
+      <div class="col m10 offset-m1">
+        <div class="headers">
+          <h1>Open Data for all.</h1>
+          <h5>Students and administrators across the world are creating a culture of open data on college campuses.</h5>
         </div>
-        <div class="large-12 large-centered columns text-center">
-            <p class="banner-text"> Students and administrators across the world are creating a culture of open data on college campuses. <span class="red">Find out how</span>. </p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="large-4 large-offset-1 columns text-center banner-panel">
-            <p> Be part of the discussion.</p>
-            <!-- Begin MailChimp Signup Form -->
-            <div id="mc_embed_signup">
-              <form action="http://CampusData.us7.list-manage1.com/subscribe/post?u=18ba658e22c34b6ac8bac552f&amp;id=9b7a676140" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                <div class="mc-field-group">
-                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="student@university.edu">
-                </div>
-                <div id="mce-responses" class="clear">
-                    <div class="response" id="mce-error-response" style="display:none"></div>
-                    <div class="response" id="mce-success-response" style="display:none"></div>
-                </div>div
-                <div class="clear">
-                    <input type="submit" value="Join the mailing list" name="subscribe" id="mc-embedded-subscribe" class="button">
-                </div>
-              </form>
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s9 white-text">
+              <input id="email" type="email" class="validate">
+              <label for="email">Join the Campus Data Listserv</label>
             </div>
-            <!--End mc_embed_signup-->
-        </div>
-
-        <div class="large-4 large-offset-2 columns text-center banner-panel">
-            <p> Explore out the campus data guidebook, a curated collection of best practices for getting your school involved.</p>
-            <a class="button clearfix" href="/guidebook">Read the Guidebook</a>
-        </div>
-        <div class="large-4 columns">
-        </div>
+            <button class="white grey-text text-darken-4 btn waves-effect" type="submit" name="action">Sign Up</button>
+          </div>
+        </form>
+      </div>
     </div>
-</div>
-<div class="about">
+  </div>
+</section>
+<section>
+  <div class="container">
+    <h2>How we help</h2>
     <div class="row">
-        <div class="large-12 columns">
-            <h2> About the organization </h2>
-            <p> During July 2013, <a href="http://github.com">Github</a> sponsored a <a href="http://campusdatasummit.com">Campus Data Summit</a>, which brought together student leaders from Columbia, Penn, Rutgers, CMU, Duke and Waterloo who had worked on campus data initiatives at their alma maters.  Over the course of a weekend, we shared our experiences and explored ways to collaborate between our organizations.
-            <p> CampusData.org was created as a collaboration from the July 2013 summit.  The <a href="/guidebook">Campus Data Guidebook</a> is a living document that brings together anecdotes and best practices from existing organizations.
-            </p>
+      <div class="col m4 component">
+        <div class="card">
+          <div class="card-content">
+            <i class="fa fa-book fa-5x"></i>
+            <h5>The Guidebook</h5>
+            <p>Practical advice for making open data happen in your university</p>
+          </div>
+          <div class="card-action">
+            <a href="/guidebook/">Read the Guidebook</a>
+          </div>
         </div>
-    </div>
-</div>
-<div class="members">
-    <div class="row">
-        <div class="small-12 columns">
-            <h2> Member Organizations </h2>
+      </div>
+      <div class="col m4 component">
+        <div class="card">
+            <div class="card-content">
+            <i class="fa fa-university fa-5x"></i>
+            <h5>Partner Universities</h5>
+            <p>Students and administrators committed open data</p>
+          </div>
+          <div class="card-action">
+            <a href="/join/">Our Members</a>
+          </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="large-12 columns">
-
-            <ul data-orbit>
-                <li data-orbit-slide="headline-1">
-                    <div class="row">
-                        <div class="large-3 columns">
-                            <img src="http://src.sencha.io/200/200/https://www.partners4employment.ca/site/images/P4E/uofwaterloo.png" style="margin-top: 40px; margin-left: 20px;" />
-                        </div>
-                        <div class="large-9 columns">
-                            <h3> University of Waterloo </h3>
-                            <p>Since 2010, the university-run <a href="https://uwaterloo.ca/open-data/">Open Data Initiative</a> has made <a href="http://api.uwaterloo.ca/">api.uwaterloo.ca</a> publicly available.  Easily the widest collection of data-sets, uWaterloo provides over 30 datasets, from building locations to a full list of vending machines, to the weather, wireless access points, and even <a href="http://api.uwaterloo.ca/#!/goosewatch">Goose Spotting</a></p>
-                        </div>
-                    </div>
-                </li>
-
-                <li data-orbit-slide="headline-2">
-                    <div class="row">
-                        <div class="large-3 columns">
-                            <img src="/static/img/pennlabs.png" />
-                        </div>
-                        <div class="large-9 columns">
-                            <h3> University of Pennsylvania </h3>
-                            <p> <a href="http://pennlabs.org/">Penn Labs</a>(formerly PennApps Labs), started in 2011, is a collaboration between the Student Government, the Provost and the Computer Science Club whose goal is to create, maintain, and improve student-run technology.  APIs available to students thus far include the course registrar, dining, campus directory, campus map, transit, and <a href="http://pennlabs.org/console/#/">course reviews</a>.</p>
-                        </div>
-                    </div>
-                </li>
-
-                <li data-orbit-slide="headline-3">
-                    <div class="row">
-                        <div class="large-3 columns">
-                            <img src="http://src.sencha.io/200/200/http://upload.wikimedia.org/wikipedia/commons/d/dc/Rutgers_athletics_logo.png" />
-                        </div>
-                        <div class="large-9 columns">
-                            <h3> Rutgers University </h3>
-                            <p> Rutgers' Open System Solutions has run <a href="http://api.rutgers.edu">api.rutgers.edu</a> since 2011 as a collaboration between the university and current students, making available APIS from university shuttle routes to dining schedules and campus events.  </p>
-                            <p><a href="http://hackru.org">HackRU</a>, Rutgers' student-run hackathon, helps publicize the API at each event.</p>
-                        </div>
-                    </div>
-                </li>
-
-                <li data-orbit-slide="headline-4">
-                    <div class="row">
-                        <div class="large-3 columns">
-                            <img src="http://src.sencha.io/200/200/http://i.imgur.com/bJDm5PF.png" />
-                        </div>
-                        <div class="large-9 columns">
-                            <h3> Carnegie Mellon University </h3>
-                            <p> <a href="http://scottylabs.org">Scotty Labs</a>, founded in 2011, has created the <a href="http://apis.scottylabs.com">apis@cmu</a> project and made course scheduling data available to students. <a href="http://tartanhacks.com">TartanHacks</a>, ScottyLabs' hackathon, offered a preview edition of the API prior to wide release in 2013.</p>
-                        </div>
-                    </div>
-                </li>
-
-                <li data-orbit-slide="headline-5">
-                    <div class="row">
-                        <div class="large-3 columns">
-                            <img src="/static/img/adi.png" style="margin-top: 40px; margin-left: 30px;" />
-                        </div>
-                        <div class="large-9 columns">
-                            <h3> Columbia University </h3>
-                            <p> <a href="http://adicu.com">ADI</a>, the Application Development Initiative has worked since 2010 to make life easier for makers at Columbia University.  <a href="http://data.adicu.com">data.adicu.com</a> hosts a variety of available APIs, from courses to dining options to housing search.  They also collaborated with Columbia University IT to establish the <a href="http://opendataservice.columbia.edu/">Columbia Open Data Service</a>.</p>
-                        </div>
-                    </div>
-                </li>
-
-                <li data-orbit-slide="headline-6">
-                    <div class="row">
-                        <div class="large-3 columns">
-                            <img src="http://src.sencha.io/200/200/https://coursera-university-assets.s3.amazonaws.com/6d/3cb3e06c357d40ef60000fb3d12d72/dukesquare_blue.png" style="margin-left: 30px;" />
-                        </div>
-                        <div class="large-9 columns">
-                            <h3> Duke University </h3>
-                            <p> <a href="http://www.hackduke.com/">HackDuke</a>, Duke's student hackathon, made available an initial set of APIs for Duke students.  The initial set ranges from courses to campus events to campus buildings and locations.</p>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-
+      </div>
+      <div class="col m4 component">
+        <div class="card">
+          <div class="card-content">
+            <i class="fa fa-table fa-5x"></i>
+            <h5>Open Data Rankings</h5>
+            <p>Find out how your university ranks for open data</p>
+          </div>
+          <div class="card-action">
+            <a href="/rankings/">View Rankings</a>
+          </div>
         </div>
+      </div>
     </div>
-</div>
-<div class="learnmore">
-    <div class="row">
-        <div class="large-12 columns">
-            <h2> How do I get started </h2>
-            <p>Want to promote Campus Data at your school?</p>
-            <ul>
-              <li>Read through the <a href="/guidebook">Guidebook</a></li>
-              <li>Ask a question on the <a href="#mailinglist">mailing list</a></li>
-              <li>Share your story</li>
-            </ul>
-        </div>
-    </div>
-</div>
-<script>
-    $(document).foundation('orbit', {
-        'slide_number': false,
-        'timer': true,
-        'animation': 'fade',
-        'navigation_arrows': true,
-        'bullets': false,
-        'resume_on_mouseout': true,
-        'container_class': 'orbit-container',
-    });
-</script>
+  </div>
+</section>
+<section class="white">
+  <div class="container">
+    <h2>History</h2>
+    <p> During July 2013, <a href="http://github.com">Github</a> sponsored a Campus Data Summit, which brought together student leaders from Columbia, Penn, Rutgers, CMU, Duke and Waterloo who had worked on campus data initiatives at their alma maters.  Over the course of a weekend, we shared our experiences and explored ways to collaborate between our organizations.
+    </p><p> CampusData.org was created as a collaboration from the July 2013 summit.  The <a href="/guidebook">Campus Data Guidebook</a> is a living document that brings together anecdotes and best practices from existing organizations.
+    </p>
+  </div>
+</section>

@@ -1,0 +1,37 @@
+<div class="navbar-fixed">
+  <nav class="white">
+    <div class="nav-wrapper container">
+      <a href="/" class="brand-logo">Campus Data</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        {% if include.active == "home" %}
+        <li class="active">
+          {% else %}
+        <li>
+          {% endif %}
+          <a href="/">About</a>
+        </li>
+        {% if include.active == "join" %}
+        <li class="active">
+          {% else %}
+        <li>
+          {% endif %}
+          <a href="/join/">Join</a>
+        </li>
+        {% if include.active == "rankings" %}
+        <li class="active">
+          {% else %}
+        <li>
+          {% endif %}
+          <a href="/rankings/">Rankings</a>
+        </li>
+        {% if include.active == "guidebook" %}
+        <li class="active">
+          {% else %}
+        <li>
+          {% endif %}
+          <a href="/guidebook/">Guidebook</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>

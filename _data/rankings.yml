@@ -1,0 +1,97 @@
+- university:
+    name: "Columbia University"
+    url: "http://www.columbia.edu"
+  student_group:
+    name: "The Application Development Initative (ADI)"
+    url: "https://adicu.com"
+  hackathon:
+    name: "DevFest"
+    url: "http://devfe.st"
+  api: null
+  open_data_group:
+    name: "Open Data Service"
+    url: "http://opendataservice.columbia.edu/"
+  apis:
+    athletics: true
+    buildings: false
+    courses: true
+    dining: false
+    events: true
+    housing: false
+    library: true
+    map: false
+    news: false
+    people: false
+    printers: false
+    textbooks: true
+    transit: false
+    weather: false
+    wifi: true
+    extras: null
+
+- university:
+    name: "University of Waterloo"
+    url: "https://uwaterloo.ca"
+  student_group: null
+  hackathon:
+    name: "Hack the North"
+    url: "http://hackthenorth.com/"
+  api:
+    name: "Open Data API"
+    url: "https://api.uwaterloo.ca/"
+  open_data_group:
+    name: "Open Data Initiative"
+    url: "https://uwaterloo.ca/open-data/"
+  apis:
+    athletics: false
+    buildings: true
+    courses: true
+    dining: true
+    events: true
+    housing: false
+    library: true
+    map: false
+    news: true
+    people: false
+    printers: true
+    textbooks: true
+    transit: false
+    weather: true
+    wifi: true
+    extras:
+      - "tutors"
+      - "infosessions"
+      - "goosewatch"
+
+- university:
+    name: "University of Pennsylvania"
+    url: "http://www.upenn.edu/"
+  student_group:
+    name: "Penn Labs"
+    url: "http://pennlabs.org/"
+  hackathon:
+    name: "Pennapps"
+    url: "http://pennapps.com/"
+  api:
+    name: "Penn OpenData"
+    url: "https://esb.isc-seo.upenn.edu/8091/"
+  open_data_group:
+    name: "Penn Labs"
+    url: "https://github.com/pennlabs"
+  apis:
+    athletics: false
+    buildings: true
+    courses: true
+    dining: true
+    events: true
+    housing: false
+    library: false
+    map: true
+    news: false
+    people: true
+    printers: false
+    textbooks: false
+    transit: true
+    weather: false
+    wifi: false
+    extras: null

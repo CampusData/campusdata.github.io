@@ -1,0 +1,62 @@
+---
+meta_description: This is a test
+meta_title: Campus Data
+meta_image_url: "/static/img/CHANGEME.png"
+meta_twitter_handle: "@CHANGEME"
+meta_domain: campusdata.org
+meta_url: http://campusdata.org/
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+
+  <title>{{ page.meta_title }}</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="{{ page.meta_description }}" />
+  <meta name="robots" content="NOODP, index, follow" />
+  <meta itemprop="name" content="{{ page.meta_title }}">
+  <meta itemprop="description" content="{{ page.meta_description }}">
+  <meta itemprop="image" content="{{ page.meta_image_url }}">
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="{{ page.meta_twitter_handle }}">
+  <meta name="twitter:title" content="{{ page.meta_title }}">
+  <meta name="twitter:description" content="{{ page.meta_description }}">
+  <meta name="twitter:creator" content="{{ page.meta_twitter_handle }}">
+  <meta name="twitter:image:src" content="{{ page.meta_image_url }}">
+  <meta name="twitter:domain" content="{{ page.meta_domain }}">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="{{ page.meta_title }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ page.meta_url }}" />
+  <meta property="og:image" content="{{ page.meta_image_url }}" />
+  <meta property="og:description" content="{{ page.meta_description }}" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/static/img/favicon.ico" type="image/x-icon">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="/static/css/app.css">
+  <link rel="stylesheet" type="text/css" href="/static/css/guidebook.css">
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+</head>
+<body>
+  <!-- <a href="https://github.com/CampusData/campusdata.github.io">
+    <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub">
+  </a> -->
+  {{ content }}
+  {% include footer.html %}
+  <!-- JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

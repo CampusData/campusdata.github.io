@@ -1,0 +1,80 @@
+---
+layout: base
+---
+{% include navbar.html active="rankings" %}
+<script type="text/javascript" src="/static/js/rankings.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/css/rankings.css">
+<section class="mygreen white-text">
+  <div class="container hero">
+    <div class="row">
+      <div class="col m10 offset-m1">
+        <div class="headers">
+          <h1>Campus Data Rankings</h1>
+          <h5>We're crowdsourcing open data statistics from around the country.</h5>
+        </div>
+        <div class="row">
+          <button class="btn white grey-text text-darken-4">Add your university</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="row">
+    <div class="col s12">
+      <table id="rankings-table" class="bordered centered responsive-table">
+        <thead>
+          <tr>
+              <th data-field="university">University</th>
+              <th data-field="student-group">Student Group</th>
+              <th data-field="hackathon">Hackathon</th>
+              <th data-field="open-data-group">Open Data Group</th>
+              <th data-field="api">API</th>
+              {% for api in site.data.rankings[0].apis %}
+              <th class="api-field" data-field="{{ api[0] }}">{{ api[0] }}</th>
+              {% endfor %}
+          </tr>
+        </thead>
+        <tbody>
+          {% for ranking in site.data.rankings %}
+          <tr>
+            <td><a href="{{ ranking.university.url }}">{{ ranking.university.name }}</a></td>
+
+            <!-- Student Group-->
+            {% if ranking.student_group %}
+            <td><a href="{{ ranking.student_group.url }}">{{ ranking.student_group.name }}</a></td>
+            {% else %}
+            <td>None</td>
+            {% endif %}
+
+            <!-- Hackathon -->
+            {% if ranking.hackathon %}
+            <td><a href="{{ ranking.hackathon.url }}">{{ ranking.hackathon.name }}</a></td>
+            {% else %}
+            <td>None</td>
+            {% endif %}
+
+            <!-- Open Data Group -->
+            {% if ranking.open_data_group %}
+            <td><a href="{{ ranking.open_data_group.url }}">{{ ranking.open_data_group.name }}</a></td>
+            {% else %}
+            <td>None</td>
+            {% endif %}
+
+            <!-- API -->
+            {% if ranking.api %}
+            <td><a href="{{ ranking.api.url }}">{{ ranking.api.name }}</a></td>
+            {% else %}
+            <td>None</td>
+            {% endif %}
+
+            {% for api in ranking.apis %}
+            <td class="api-field" >{% if api[1] %}<i class="fa fa-check"></i>{% else %}<i class="fa fa-times"></i>{% endif %}</td>
+            {% endfor %}
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
