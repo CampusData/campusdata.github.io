@@ -1,10 +1,10 @@
 ---
 layout: guidebook
-permalink: guidebook/index.html
+permalink: /guidebook/
 ---
-# Intro to the Guidebook
+Welcome to the Campus Data Guidebook! 
 
-Welcome to the Campus Data Guidebook! We hope this can help you start your campus data project. This is a living document
+We hope this can help you start your campus data project. This is a living document
 created by students from a variety of schools; we'd like to give you tips and share our stories. This book contains different
 experiences from various institutions, so we might not agree all the time, but we're all striving towards the same goals.
 Figure out what works best for your school. As you work on campus data and overcome hurdles, send us a pull request to

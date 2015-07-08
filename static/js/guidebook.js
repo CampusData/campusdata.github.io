@@ -8,7 +8,6 @@ $(function() {
 		tagName = $el.prop("tagName").toLowerCase();
 		link = '<a class="spylink" href="#' + id + '">' + $el.text() + '</a>';
 		if (tagName == 'h3') {
-			console.log(link);
 			$toc.append('<li class="unit">' +
           					'<div class="collapsible-header">' + link + '</div>' +
           					'<div class="collapsible-body"></div>' +
@@ -28,7 +27,16 @@ $(function() {
     	$('.collapsible-header').removeClass('active');
     	$('.spylink.active').parents('.unit').children('.collapsible-header').trigger('click.collapse');
     });
+    function containTOC() {
+	    $('.table-of-contents').css({
+	    	'max-width': $('.table-of-contents').width()
+	    });
+    }
+    containTOC();
+
+    $(document).on('resize', function() {
+    	containTOC();
+    })
 
 	$('.scrollspy').scrollSpy();
-	// $toc.pushpin({ top: $('nav').height() });
 })

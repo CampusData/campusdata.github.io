@@ -45,6 +45,10 @@ nav * {
     color: #212121 !important;
 }
 
+img {
+    max-width: 100%;
+}
+
 .card-image img {
     width: auto;
     display: block;
@@ -58,9 +62,16 @@ footer {
 .mygreen {
     background-color: #23cf5f !important;
 }
+.mygreen-dark {
+    background-color: #188F42 !important;
+}
 
 .card-title {
     padding: 20px;
+}
+
+p {
+    font-size: 1.2rem;
 }
 
 .card-image-scrim {

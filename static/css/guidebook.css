@@ -19,12 +19,9 @@ h6:hover .header-link {
 #post-content {
 	position: relative;
 }
-.table-of-contents {
-	position: fixed;
-	padding-right: 2rem;
-}
-.table-of-contents .h4 {
-	padding-left: 0.5rem;
+.table-of-contents.pinned {
+	margin-top: 4rem;
+	width: 100%;
 }
 .collapsible {
 	width: 100%;
