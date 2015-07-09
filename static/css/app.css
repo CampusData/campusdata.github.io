@@ -1,101 +1,160 @@
-img.fullpage {
-    width: 100%;
+body {
+    background-color: #f5f5f5;
 }
 
-div.banner {
-    background: url('/static/img/campus.jpg') no-repeat center top;
-    width: 100%;
-    padding-bottom: 20px;
+#rankings-table .fa-times {
+    color: red;
 }
 
-div.banner form {
-    margin-bottom: 0px;
+#rankings-table .fa-check {
+    color: #23cf5f;
 }
 
-div.about {
-    padding-top: 20px;
-    width: 100%;
-    margin-bottom: 20px;
-}
-
-div.members {
-    padding-top: 20px;
-    background: lightblue;
-    width: 100%;
-    height: 370px;
-}
-
-div.learnmore {
-    padding-top: 20px;
-    width: 100%;
-    height: 300px;
-}
-
-div.banner h1.title {
-    color: white;
-    font-size: 80px;
-}
-
-div.banner p {
+.parallax-container .overlay {
+    padding: 3rem 0;
+    margin: 0 auto;
+    text-align: center;
     color: white;
 }
 
-div.banner p.banner-text {
-    padding: 15px;
-    background: #000;
-    font-size: 24px;
-    opacity: 0.8;
+.parallax img {
+    -webkit-filter: blur(3px);
+   filter: blur(3px);
+}
+.hero {
+    text-align: center;
 }
 
-h1,h2,h3,p,a.button {
-    font-family: 'Roboto', sans-serif;
+.hero .headers {
+    margin-bottom: 2rem;
 }
 
-span.red {
-    color: rgb(180, 0, 0);
+.component i, .component h5 {
+    text-align: center;
+    width: 100%;
+}
+.component h5 {
+    margin-bottom: 1.5rem;
 }
 
-div.banner div.banner-panel {
-    background: #000;
-    padding: 15px;
-    opacity: 0.9;
+.card-action a {
+    color: #039be5 !important;
 }
 
-.row ul {
-    margin-left: 25px;
+nav * {
+    color: #212121 !important;
 }
 
-.home-button {
-    margin-right: 100px;
+img {
+    max-width: 100%;
 }
 
-ul.slideme {
-    list-style: none;
+.card-image img {
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    z-index: 1;
+}
+footer {
+    margin: 0 !important;
 }
 
-div.orbit-container {
-    background: none;
+.mygreen {
+    background-color: #23cf5f !important;
+}
+.mygreen-dark {
+    background-color: #188F42 !important;
 }
 
-a.orbit-prev, a.orbit-next {
-    opacity: 0.5;
+.card-title {
+    padding: 20px;
 }
 
-div.section-container p.title {
-    padding: 10px;
+p {
+    font-size: 1.2rem;
 }
 
-div#locked {
-    width: 300px;
+.card-image-scrim {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    background-color: rgba(0,0,0,0.2);
+}
+/*.card-content {
+    height: 12rem;
+}*/
+.card-image-scrim img {
+    z-index: 1;
+    position: relative;
+}
+.card-title {
+    z-index: 3;
+}
+.card-action {
+    text-align: left;
 }
 
-div.row.full-row {
-    max-width: 80em;
-    margin: 0;
+table {
+    margin: 0 auto;
+    width: 95%;
 }
 
-@media (min-width: 1320px) {
-    div.locked.section-container {
-        position: fixed;
+section {
+    padding: 3rem 0;
+}
+
+@media only screen and (min-width: 993px) {
+    .api-field {
+        max-width: 2rem;
     }
+    th.api-field {
+        transform: rotate(-60deg);
+    }
+}
+
+
+
+/* Form */
+form {
+    padding: 0 !important;
+}
+
+/* label color */
+.input-field label {
+    color: #FFF !important;
+}
+/* label focus color */
+.input-field input[type=email]:focus + label {
+    color: #FFF !important;
+}
+/* label underline color */
+.input-field input[type=email]:focus {
+    border-bottom: 1px solid #FFF !important;
+    box-shadow: 0 1px 0 0 #FFF !important;
+}
+/* label underline focus color */
+.input-field input[type=email]:focus {
+    border-bottom: 1px solid #FFF !important;
+    box-shadow: 0 1px 0 0 #FFF !important;
+}
+/* valid color */
+.input-field input[type=email].valid {
+    border-bottom: 1px solid #FFF !important;
+    box-shadow: 0 1px 0 0 #FFF !important;
+}
+/* invalid color */
+.input-field input[type=email].invalid {
+    border-bottom: 1px solid #FFF !important;
+    box-shadow: 0 1px 0 0 #FFF !important;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+    color: #FFF !important;
+}
+button[type=submit] {
+    margin-top: 22px;
+    margin-left: 8px;
 }

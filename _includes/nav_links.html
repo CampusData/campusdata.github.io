@@ -1,0 +1,28 @@
+{% if include.active == "home" %}
+<li class="active">
+  {% else %}
+<li>
+  {% endif %}
+  <a href="/">About</a>
+</li>
+{% if include.active == "join" %}
+<li class="active">
+  {% else %}
+<li>
+  {% endif %}
+  <a href="/members/">Members</a>
+</li>
+{% if include.active == "rankings" %}
+<li class="active">
+  {% else %}
+<li>
+  {% endif %}
+  <a href="/rankings/">Rankings</a>
+</li>
+{% if include.active == "guidebook" %}
+<li class="active">
+  {% else %}
+<li>
+  {% endif %}
+  <a href="/guidebook/">Guidebook</a>
+</li>
