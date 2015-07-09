@@ -98,7 +98,7 @@ p {
 }
 
 table {
-    margin-left: 2.5%;
+    margin: 0 auto;
     width: 95%;
 }
 
@@ -106,15 +106,22 @@ section {
     padding: 3rem 0;
 }
 
-.api-field {
-    max-width: 2rem;
+@media only screen and (min-width: 993px) {
+    .api-field {
+        max-width: 2rem;
+    }
+    th.api-field {
+        transform: rotate(-60deg);
+    }
 }
-th.api-field {
-    transform: rotate(-60deg);
-}
+
 
 
 /* Form */
+form {
+    padding: 0 !important;
+}
+
 /* label color */
 .input-field label {
     color: #FFF !important;

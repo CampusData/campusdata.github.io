@@ -1,36 +1,13 @@
 <div class="navbar-fixed">
   <nav class="white">
     <div class="nav-wrapper container">
+      <a href="#" data-activates="mobile-sidenav" class="button-collapse"><i class="fa fa-bars"></i></a>
       <a href="/" class="brand-logo">Campus Data</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        {% if include.active == "home" %}
-        <li class="active">
-          {% else %}
-        <li>
-          {% endif %}
-          <a href="/">About</a>
-        </li>
-        {% if include.active == "join" %}
-        <li class="active">
-          {% else %}
-        <li>
-          {% endif %}
-          <a href="/join/">Join</a>
-        </li>
-        {% if include.active == "rankings" %}
-        <li class="active">
-          {% else %}
-        <li>
-          {% endif %}
-          <a href="/rankings/">Rankings</a>
-        </li>
-        {% if include.active == "guidebook" %}
-        <li class="active">
-          {% else %}
-        <li>
-          {% endif %}
-          <a href="/guidebook/">Guidebook</a>
-        </li>
+      <ul class="right hide-on-med-and-down">
+        {% include nav_links.html %}
+      </ul>
+      <ul class="side-nav" id="mobile-sidenav">
+        {% include nav_links.html %}
       </ul>
     </div>
   </nav>
