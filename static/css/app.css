@@ -106,17 +106,6 @@ section {
     padding: 3rem 0;
 }
 
-@media only screen and (min-width: 993px) {
-    .api-field {
-        max-width: 2rem;
-    }
-    th.api-field {
-        transform: rotate(-60deg);
-    }
-}
-
-
-
 /* Form */
 form {
     padding: 0 !important;
