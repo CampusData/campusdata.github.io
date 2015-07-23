@@ -11,6 +11,9 @@
         max-width: 2rem;
     }
     th.api-field {
+        -webkit-transform: rotate(-60deg);
+        -moz-transform: rotate(-60deg);
+        -o-transform: rotate(-60deg);
         transform: rotate(-60deg);
     }
     #rankings-table-header {
