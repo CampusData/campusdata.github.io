@@ -1,3 +1,8 @@
+table {
+    margin: 0 2.5%;
+    width: 90%;
+}
+
 .tables-wrapper {
     position: relative;
 }
@@ -50,11 +55,6 @@
         background-color: #f5f5f5;
     }
 
- /*   #rankings-table-header tbody {
-        max-height: 0;
-        height: 0;
-        overflow: hidden;
-    }*/
     #rankings-table thead {
         max-height: 0;
         overflow: hidden;
