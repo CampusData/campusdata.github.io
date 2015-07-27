@@ -212,18 +212,22 @@
     extras: null
 
 - university:
-    name: "Duke University"
-    url: "https://duke.edu/"
-  student_group: null
+    name: "University of Pittsburgh"
+    url: "http://www.pitt.edu/"
+  student_group:
+    name: "Pitt Computer Science Club"
+    url: "http://pittcsc.org/"
   hackathon:
-    name: "HackDuke"
-    url: "http://www.hackduke.com/"
-  api: null
+    name: "SteelHacks"
+    url: "http://steelhacks.com"
+  api:
+    name: "PittAPI"
+    url: "https://github.com/RitwikGupta/PittAPI"
   open_data_group: null
   apis:
     athletics: false
     buildings: false
-    courses: false
+    courses: true
     dining: false
     events: false
     housing: false
@@ -235,17 +239,15 @@
     textbooks: false
     transit: false
     weather: false
-    extras: null
+    extras: ['Computer Labs', 'Laundry']
 
 - university:
-    name: "University of Pittsburgh"
-    url: "http://www.pitt.edu/"
-  student_group:
-    name: "Pitt Computer Science Club"
-    url: "http://pittcsc.org/"
+    name: "Duke University"
+    url: "https://duke.edu/"
+  student_group: null
   hackathon:
-    name: "SteelHacks"
-    url: "http://steelhacks.com"
+    name: "HackDuke"
+    url: "http://www.hackduke.com/"
   api: null
   open_data_group: null
   apis:
