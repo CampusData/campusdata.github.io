@@ -432,22 +432,23 @@
   hackathon:
     name: "YHack"
     url: "http://www.yhack.org/"
-  api: null# TODO: maybe later make a page linking to these various data services that we have in non-API form and link to that.
+  api: null 
   open_data_group: null
   apis:
-    athletics: false # working with student athlete committee on getting this build for gametimes + locations
+    athletics: false # working with student athlete committee on getting this built for gametimes + locations.
     buildings: false
-    courses: false # not api but: https://ybb.yale.edu/ . See here to build a scraper for future project with our dataset: http://yaledatascience.github.io/2015/01/13/spring-2015-preview/
-    dining: false# not API but this is scrapable: http://www.yale.edu/dining/menu/todaysmenus.html
-    events: false# there are several failed initiatives in this space
+    courses: false # not api but: https://ybb.yale.edu/ . 
+    # See here to build a scraper for future project with our dataset: http://yaledatascience.github.io/2015/01/13/spring-2015-preview/
+    dining: false # not API but this is scrapable: http://www.yale.edu/dining/menu/todaysmenus.html
+    events: false # there are several failed initiatives in this space
     housing: false
     library: false
     map: false
     news: false
-    people: false#scrapable if member of university: https://students.yale.edu/facebook/
+    people: false #scrapable if member of university: https://students.yale.edu/facebook/
     printers: false
     textbooks: false
-    transit: false# proprietary shuttle service: http://yale.transloc.com/
+    transit: false # proprietary shuttle service: http://yale.transloc.com/
     weather: false
     extras: null
-    #other campus data initiatives: energy usage: http://java.facilities.yale.edu/energy/ # open clinical research data: http://yoda.yale.edu/
+    # Other campus data initiatives: energy usage: http://java.facilities.yale.edu/energy/ # open clinical research data: http://yoda.yale.edu/
