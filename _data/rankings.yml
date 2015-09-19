@@ -432,23 +432,25 @@
   hackathon:
     name: "YHack"
     url: "http://www.yhack.org/"
-  api: null 
+  api: 
+    name: Student Developer Portal
+    url: "https://developers.yale.edu/documentation"
   open_data_group: null
   apis:
     athletics: false # working with student athlete committee on getting this built for gametimes + locations.
-    buildings: false
-    courses: false # not api but: https://ybb.yale.edu/ . 
+    buildings: true
+    courses: true# not api but: https://ybb.yale.edu/ . 
     # See here to build a scraper for future project with our dataset: http://yaledatascience.github.io/2015/01/13/spring-2015-preview/
-    dining: false # not API but this is scrapable: http://www.yale.edu/dining/menu/todaysmenus.html
-    events: false # there are several failed initiatives in this space
+    dining: true # not API but this is scrapable: http://www.yale.edu/dining/menu/todaysmenus.html... actually there is some sort of vendor api
+    events: true # by a third party vendor
     housing: false
     library: false
-    map: false
-    news: false
-    people: false #scrapable if member of university: https://students.yale.edu/facebook/
-    printers: false
+    map: true
+    news: true
+    people: false #scrapable if member of university: https://students.yale.edu/facebook/ ... schoool of medicine does have API for quering people though.
+    printers: true #provided by papercut
     textbooks: false
-    transit: false # proprietary shuttle service: http://yale.transloc.com/
+    transit: true # proprietary shuttle service: http://yale.transloc.com/
     weather: false
     extras: null
     # Other campus data initiatives: energy usage: http://java.facilities.yale.edu/energy/ # open clinical research data: http://yoda.yale.edu/
