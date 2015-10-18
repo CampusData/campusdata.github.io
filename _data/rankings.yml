@@ -126,6 +126,37 @@
     extras: ['wifi']
 
 - university:
+    name: "Yale University"
+    url: "http://www.yale.edu/"
+  student_group:
+    name: "YaleMakes"
+    url: "http://www.cameronyick.us/ymakes"
+  hackathon:
+    name: "YHack"
+    url: "http://www.yhack.org/"
+  api: 
+    name: Student Developer Portal
+    url: "https://developers.yale.edu/documentation"
+  open_data_group: null
+  apis:
+    athletics: false # working with student athlete committee on getting this built for gametimes + locations.
+    buildings: true
+    courses: true # not api but: https://ybb.yale.edu/ . # See here to build a scraper for future project with our dataset: http://yaledatascience.github.io/2015/01/13/spring-2015-preview/
+    dining: true # not API but this is scrapable: http://www.yale.edu/dining/menu/todaysmenus.html... actually there is some sort of vendor api
+    events: true # by a third party vendor
+    housing: false
+    library: false
+    map: true
+    news: true
+    people: false #scrapable if member of university: https://students.yale.edu/facebook/ ... schoool of medicine does have API for quering people though.
+    printers: true #provided by papercut
+    textbooks: false
+    transit: true # proprietary shuttle service: http://yale.transloc.com/
+    weather: false
+    extras: [energy, culturalAssets, Yoda, Zipcar]
+    # Other campus data initiatives: energy usage: http://java.facilities.yale.edu/energy/ # open clinical research data: http://yoda.yale.edu/
+
+- university:
     name: "New York University"
     url: "http://www.nyu.edu/"
   student_group:
@@ -422,38 +453,6 @@
     transit: false
     weather: false
     extras: null
-
-- university:
-    name: "Yale University"
-    url: "http://www.yale.edu/"
-  student_group:
-    name: "YaleMakes"
-    url: "http://www.cameronyick.us/ymakes"
-  hackathon:
-    name: "YHack"
-    url: "http://www.yhack.org/"
-  api: 
-    name: Student Developer Portal
-    url: "https://developers.yale.edu/documentation"
-  open_data_group: null
-  apis:
-    athletics: false # working with student athlete committee on getting this built for gametimes + locations.
-    buildings: true
-    courses: true# not api but: https://ybb.yale.edu/ . 
-    # See here to build a scraper for future project with our dataset: http://yaledatascience.github.io/2015/01/13/spring-2015-preview/
-    dining: true # not API but this is scrapable: http://www.yale.edu/dining/menu/todaysmenus.html... actually there is some sort of vendor api
-    events: true # by a third party vendor
-    housing: false
-    library: false
-    map: true
-    news: true
-    people: false #scrapable if member of university: https://students.yale.edu/facebook/ ... schoool of medicine does have API for quering people though.
-    printers: true #provided by papercut
-    textbooks: false
-    transit: true # proprietary shuttle service: http://yale.transloc.com/
-    weather: false
-    extras: null
-    # Other campus data initiatives: energy usage: http://java.facilities.yale.edu/energy/ # open clinical research data: http://yoda.yale.edu/
 
 - university:
     name: "UC San Diego"
