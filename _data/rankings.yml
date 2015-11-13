@@ -32,6 +32,37 @@
       - "goosewatch"
 
 - university:
+    name: "Yale University"
+    url: "http://www.yale.edu/"
+  student_group:
+    name: "YaleMakes"
+    url: "http://www.cameronyick.us/ymakes"
+  hackathon:
+    name: "YHack"
+    url: "http://www.yhack.org/"
+  api: 
+    name: Student Developer Portal
+    url: "https://developers.yale.edu/documentation"
+  open_data_group: null
+  apis:
+    athletics: false # working with student athlete committee on getting this built for gametimes + locations.
+    buildings: true
+    courses: true #now has actual API! With that said, for backup # See here to build a scraper for future project with our dataset: http://yaledatascience.github.io/2015/01/13/spring-2015-preview/
+    dining: true # vendorAPI has been added. actually there is some sort of vendor api
+    events: true # by a third party vendor
+    housing: false
+    library: false
+    map: true
+    news: true
+    people: false #scrapable if member of university: https://students.yale.edu/facebook/ ... schoool of medicine does have API for quering people though.
+    printers: true #provided by papercut
+    textbooks: false
+    transit: true # proprietary shuttle service: http://yale.transloc.com/
+    weather: false
+    extras: [energy, culturalAssets, Yoda, Zipcar]
+    # Other campus data initiatives: energy usage: http://java.facilities.yale.edu/energy/ # open clinical research data: http://yoda.yale.edu/
+
+- university:
     name: "University of Pennsylvania"
     url: "http://www.upenn.edu/"
   student_group:
@@ -126,37 +157,6 @@
     extras: ['wifi']
 
 - university:
-    name: "Yale University"
-    url: "http://www.yale.edu/"
-  student_group:
-    name: "YaleMakes"
-    url: "http://www.cameronyick.us/ymakes"
-  hackathon:
-    name: "YHack"
-    url: "http://www.yhack.org/"
-  api: 
-    name: Student Developer Portal
-    url: "https://developers.yale.edu/documentation"
-  open_data_group: null
-  apis:
-    athletics: false # working with student athlete committee on getting this built for gametimes + locations.
-    buildings: true
-    courses: true # not api but: https://ybb.yale.edu/ . # See here to build a scraper for future project with our dataset: http://yaledatascience.github.io/2015/01/13/spring-2015-preview/
-    dining: true # not API but this is scrapable: http://www.yale.edu/dining/menu/todaysmenus.html... actually there is some sort of vendor api
-    events: true # by a third party vendor
-    housing: false
-    library: false
-    map: true
-    news: true
-    people: false #scrapable if member of university: https://students.yale.edu/facebook/ ... schoool of medicine does have API for quering people though.
-    printers: true #provided by papercut
-    textbooks: false
-    transit: true # proprietary shuttle service: http://yale.transloc.com/
-    weather: false
-    extras: [energy, culturalAssets, Yoda, Zipcar]
-    # Other campus data initiatives: energy usage: http://java.facilities.yale.edu/energy/ # open clinical research data: http://yoda.yale.edu/
-
-- university:
     name: "New York University"
     url: "http://www.nyu.edu/"
   student_group:
@@ -213,6 +213,34 @@
     transit: true
     weather: false
     extras: null
+
+- university:
+    name: "Brown University"
+    url: "http://brown.edu/"
+  student_group: null
+  hackathon:
+    name: "Hack@Brown"
+    url: "http://hackatbrown.org"
+  api:
+    name: "Brown APIs"
+    url: "http://api.students.brown.edu"
+  open_data_group: null
+  apis:
+    athletics: false
+    buildings: false
+    courses: false # seems to be under construction, ex the "critical review"
+    dining: true
+    events: false
+    housing: false
+    library: false
+    map: false
+    news: false
+    people: false
+    printers: false
+    textbooks: false
+    transit: true #shuttle API
+    weather: false
+    extras: ['wifi']
 
 - university:
     name: "Carnegie Mellon University"
@@ -461,6 +489,32 @@
   hackathon:
     name: "SD Hacks"
     url: "https://sdhacks.io"
+  api: null
+  open_data_group: null
+  apis:
+    athletics: false
+    buildings: false
+    courses: false
+    dining: false
+    events: false
+    housing: false
+    library: false
+    map: false
+    news: false
+    people: false
+    printers: false
+    textbooks: false
+    transit: false
+    weather: false
+    extras: null
+
+- university:
+    name: "University of Toronto"
+    url: "https://www.utoronto.ca"
+  student_group: null
+  hackathon:
+    name: "UofTHacks"
+    url: "https://uofthacks.com"
   api: null
   open_data_group: null
   apis:
