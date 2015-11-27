@@ -3,6 +3,7 @@ body {
 }
 
 #rankings-table .fa-times {
+    opacity: 0.2;
     color: red;
 }
 
