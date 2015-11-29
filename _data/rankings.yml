@@ -517,17 +517,19 @@
   hackathon:
     name: "UofTHacks"
     url: "https://uofthacks.com"
-  api: null
+  api:
+    name: "Cobalt"
+    url: "https://cobalt.qas.im/"
   open_data_group: null
   apis:
     athletics: false
-    buildings: false
-    courses: false
+    buildings: true
+    courses: true
     dining: false
     events: false
     housing: false
     library: false
-    map: false
+    map: true
     news: false
     people: false
     printers: false
