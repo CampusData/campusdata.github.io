@@ -1,3 +1,4 @@
-name: Your New Jekyll Site
-markdown: kramdown
+name: Campus Data
 highlighter: pygments
+markdown: kramdown
+exclude: ['README.md']
