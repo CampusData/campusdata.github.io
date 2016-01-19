@@ -19,12 +19,12 @@
     events: true
     housing: false
     library: true
-    map: false
+    map: true
     news: true
-    people: false
+    people: true
     printers: true
     textbooks: true
-    transit: false
+    transit: true
     weather: true
     extras:
       - "tutors"
