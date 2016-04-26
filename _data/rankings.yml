@@ -32,6 +32,40 @@
       - "goosewatch"
 
 - university:
+    name: "University of Toronto"
+    url: "https://utoronto.ca"
+  student_group:
+    name: "CSSU"
+    url: "https://cssu.ca"
+  hackathon:
+    name: "UofTHacks"
+    url: "https://uofthacks.com"
+  api:
+    name: "Cobalt APIs"
+    url: "https://cobalt.qas.im"
+  open_data_group:
+    name: "Cobalt"
+    url: "https://github.com/cobalt-uoft"
+  apis:
+    athletics: true
+    buildings: true
+    courses: true
+    dining: true
+    events: true
+    housing: false
+    library: true
+    map: true
+    news: false
+    people: false
+    printers: false
+    textbooks: true
+    transit: true
+    weather: false
+    extras:
+      - "vehicle parking"
+      - "bicycle racks"
+
+- university:
     name: "Yale University"
     url: "http://www.yale.edu/"
   student_group:
@@ -506,34 +540,6 @@
     people: false
     printers: false
     textbooks: false
-    transit: false
-    weather: false
-    extras: null
-
-- university:
-    name: "University of Toronto"
-    url: "https://www.utoronto.ca"
-  student_group: null
-  hackathon:
-    name: "UofTHacks"
-    url: "https://uofthacks.com"
-  api:
-    name: "Cobalt"
-    url: "https://cobalt.qas.im/"
-  open_data_group: null
-  apis:
-    athletics: false
-    buildings: true
-    courses: true
-    dining: true
-    events: false
-    housing: false
-    library: false
-    map: true
-    news: false
-    people: false
-    printers: false
-    textbooks: true
     transit: false
     weather: false
     extras: null
