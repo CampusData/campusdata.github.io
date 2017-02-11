@@ -323,13 +323,13 @@
     athletics: false
     buildings: false
     courses: true
-    dining: false
+    dining: true
     events: false
     housing: false
     library: false
     map: false
     news: false
-    people: false
+    people: true
     printers: false
     textbooks: false
     transit: false
