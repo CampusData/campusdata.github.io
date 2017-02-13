@@ -332,7 +332,7 @@
     people: true
     printers: false
     textbooks: false
-    transit: false
+    transit: true
     weather: false
     extras: ['Computer Labs', 'Laundry']
 
