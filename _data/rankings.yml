@@ -293,7 +293,7 @@
     athletics: false
     buildings: false
     courses: true
-    dining: false
+    dining: true
     events: false
     housing: false
     library: false
