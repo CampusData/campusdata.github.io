@@ -328,7 +328,7 @@
     housing: false
     library: false
     map: false
-    news: false
+    news: true
     people: true
     printers: false
     textbooks: false
