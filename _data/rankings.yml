@@ -83,18 +83,50 @@
     buildings: true
     courses: true #now has actual API! With that said, for backup # See here to build a scraper for future project with our dataset: http://yaledatascience.github.io/2015/01/13/spring-2015-preview/
     dining: true # vendorAPI has been added. actually there is some sort of vendor api
-    events: true # by a third party vendor
+    events: true # by a third party vendor, calendar of events
     housing: false
     library: false
-    map: true
+    map: true  # map.yale.edu
     news: true
-    people: false #scrapable if member of university: https://students.yale.edu/facebook/ ... schoool of medicine does have API for quering people though.
+    people: true  #scrapable if member of university: https://students.yale.edu/facebook/ ... schoool of medicine does have API for quering people though. Also in Identity Data Repository / People Hub Data (see portal for details)
     printers: true #provided by papercut
     textbooks: false
     transit: true # proprietary shuttle service: http://yale.transloc.com/
     weather: false
     extras: [energy, culturalAssets, Yoda, Zipcar]
     # Other campus data initiatives: energy usage: http://java.facilities.yale.edu/energy/ # open clinical research data: http://yoda.yale.edu/
+
+- university:
+    name: "Harvard University"
+    url: "http://www.harvard.edu/"
+  student_group:
+    name: "Open Data Project" # Contact: Neel Mehta
+    url: "http://harvard-open-data-project.github.io" 
+  hackathon:
+    name: "HackHarvard"
+    url: "http://www.hackharvard.io"
+  api:
+    name: "Data Catalog"
+    url: "http://harvard-open-data-project.github.io/catalog"
+  open_data_group: 
+      name: "Open Data Project"
+      url: "http://harvard-open-data-project.github.io"
+  apis:
+    athletics: true # working with student athlete committee on getting this built for gametimes + locations.
+    buildings: true
+    courses: true 
+    dining: true  
+    events: false 
+    housing: true
+    library: true
+    map: true
+    news: false
+    people: true 
+    printers: false 
+    textbooks: false
+    transit: true 
+    weather: false
+    extras: ['financials', 'admissions', 'diversity']
 
 - university:
     name: "University of Pennsylvania"
