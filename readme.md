@@ -39,3 +39,12 @@
 1. [ListServ](http://campusdata.us7.list-manage1.com/subscribe/post?u=18ba658e22c34b6ac8bac552f&id=9b7a676140)
 2. [Form](https://docs.google.com/forms/d/1y6_dOgwXQ2Il_zi0_E6QelTX_q0tnGF1QvEP5l4_zjU/viewform) 
 
+### Testing site locally
+
+This is a static site generated with [Jekyll](https://jekyllrb.com/).
+
+Clone this repository and run
+
+```
+    jekyll serve
+```
