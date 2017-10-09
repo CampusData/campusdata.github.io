@@ -369,6 +369,32 @@
     extras: null
 
 - university:
+    name: "Vanderbilt University"
+    url: "https://www.vanderbilt.edu"
+  student_group: null
+  hackathon:
+    name: "VandyHacks"
+    url: "https://vandyhacks.org"
+  api: null
+  open_data_group: null
+  apis:
+    athletics: false
+    buildings: false
+    courses: false
+    dining: false
+    events: true  # https://events.vanderbilt.edu/index.php?com=tools
+    housing: false
+    library: false
+    map: false
+    news: false
+    people: false
+    printers: false
+    textbooks: false
+    transit: false
+    weather: false
+    extras: null
+
+- university:
     name: "Duke University"
     url: "https://duke.edu/"
   student_group: null
