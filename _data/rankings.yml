@@ -135,7 +135,7 @@
     name: "Penn Labs"
     url: "http://pennlabs.org/"
   hackathon:
-    name: "Pennapps"
+    name: "PennApps"
     url: "http://pennapps.com/"
   api:
     name: "Penn OpenData"
@@ -152,13 +152,13 @@
     housing: false
     library: false
     map: true
-    news: false
+    news: true
     people: true
     printers: false
     textbooks: false
     transit: true
     weather: false
-    extras: null
+    extras: ['events', 'bike racks', 'laundry']
 
 - university:
     name: "Rutgers University"
